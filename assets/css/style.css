@@ -87,7 +87,7 @@ a {
 }
 a:hover,
 a:focus {
-	color: #2AD396;
+	color: #2ad396;
 	text-decoration: none;
 }
 
@@ -189,7 +189,7 @@ Default btn CSS
 .default-btn {
 	display: inline-block;
 	padding: 18px 35px;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 	border-radius: 10px;
 	transition: 0.5s;
@@ -214,7 +214,7 @@ Section Title CSS
 .section-title .bar {
 	height: 5px;
 	width: 100px;
-	background: #2AD396;
+	background: #2ad396;
 	position: relative;
 	border-radius: 5px;
 	overflow: hidden;
@@ -257,7 +257,7 @@ Preloader Area CSS
 	width: 100%;
 	height: 100%;
 	z-index: 9999999;
-	background: #2AD396;
+	background: #2ad396;
 }
 .preloader .spinner {
 	width: 60px;
@@ -369,7 +369,7 @@ Top Bar Area CSS
 	width: 1px;
 	content: "";
 	height: 15px;
-	background-color: #2AD396;
+	background-color: #2ad396;
 }
 .top-bar-area.bg-000000 .top-bar-information li:last-child::before {
 	display: none;
@@ -378,10 +378,10 @@ Top Bar Area CSS
 	color: #ffffff;
 }
 .top-bar-area.bg-000000 .top-bar-information li i {
-	color: #2AD396;
+	color: #2ad396;
 }
 .top-bar-area.bg-000000 .top-bar-optional li a i {
-	color: #2AD396;
+	color: #2ad396;
 }
 .top-bar-area.bg-000000 .top-bar-optional li a i:hover {
 	color: #ffffff;
@@ -418,7 +418,7 @@ Top Bar Area CSS
 	position: absolute;
 	left: 0;
 	top: 2px;
-	color: #2AD396;
+	color: #2ad396;
 }
 
 .top-bar-optional {
@@ -440,7 +440,7 @@ Top Bar Area CSS
 	width: 35px;
 	line-height: 35px;
 	background-color: #ffffff;
-	color: #2AD396;
+	color: #2ad396;
 	box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
 	text-align: center;
 	font-size: 18px;
@@ -448,7 +448,7 @@ Top Bar Area CSS
 	transition: 0.5s;
 }
 .top-bar-optional li a i:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 	transform: translateY(-2px);
 }
@@ -494,7 +494,7 @@ Top Bar Area CSS
 	margin-right: 0;
 }
 .top-bar-optional li .languages-list .nice-select .list .option.selected {
-	background-color: #2AD396 !important;
+	background-color: #2ad396 !important;
 	color: #ffffff;
 	font-weight: normal;
 }
@@ -506,7 +506,7 @@ Top Bar Area CSS
 Navbar Area CSS
 =================================================*/
 .navbar-inner {
-  background:transparent;
+	background: transparent;
 }
 
 .main-responsive-nav {
@@ -519,7 +519,7 @@ Navbar Area CSS
 .main-navbar .navbar {
 	transition: 0.5s;
 	background: transparent;
-  padding: 0;
+	padding: 0;
 }
 .main-navbar .navbar ul {
 	padding-left: 0;
@@ -548,7 +548,7 @@ Navbar Area CSS
 	right: 0;
 	width: 0;
 	height: 2px;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	transition: all ease 0.5s;
 }
 .main-navbar .navbar .navbar-nav .nav-item a i {
@@ -562,7 +562,7 @@ Navbar Area CSS
 .main-navbar .navbar .navbar-nav .nav-item a:hover,
 .main-navbar .navbar .navbar-nav .nav-item a:focus,
 .main-navbar .navbar .navbar-nav .nav-item a.active {
-	color: #2AD396;
+	color: #2ad396;
 }
 .main-navbar .navbar .navbar-nav .nav-item a:hover::before,
 .main-navbar .navbar .navbar-nav .nav-item a:focus::before,
@@ -579,7 +579,7 @@ Navbar Area CSS
 }
 .main-navbar .navbar .navbar-nav .nav-item:hover a,
 .main-navbar .navbar .navbar-nav .nav-item.active a {
-	color: #2AD396;
+	color: #2ad396;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu {
 	border: none;
@@ -620,7 +620,7 @@ Navbar Area CSS
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:hover,
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:focus,
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-	color: #2AD396;
+	color: #2ad396;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:hover::before,
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:focus::before,
@@ -673,7 +673,7 @@ Navbar Area CSS
 	.dropdown-menu
 	li
 	a.active {
-	color: #2AD396;
+	color: #2ad396;
 }
 .main-navbar
 	.navbar
@@ -764,7 +764,7 @@ Navbar Area CSS
 	.dropdown-menu
 	li
 	a.active {
-	color: #2AD396;
+	color: #2ad396;
 }
 .main-navbar
 	.navbar
@@ -871,7 +871,7 @@ Navbar Area CSS
 	.dropdown-menu
 	li
 	a.active {
-	color: #2AD396;
+	color: #2ad396;
 }
 .main-navbar
 	.navbar
@@ -994,7 +994,7 @@ Navbar Area CSS
 	.dropdown-menu
 	li
 	a.active {
-	color: #2AD396;
+	color: #2ad396;
 }
 .main-navbar
 	.navbar
@@ -1133,7 +1133,7 @@ Navbar Area CSS
 	.dropdown-menu
 	li
 	a.active {
-	color: #2AD396;
+	color: #2ad396;
 }
 .main-navbar
 	.navbar
@@ -1288,7 +1288,7 @@ Navbar Area CSS
 	.dropdown-menu
 	li
 	a.active {
-	color: #2AD396;
+	color: #2ad396;
 }
 .main-navbar
 	.navbar
@@ -1366,7 +1366,7 @@ Navbar Area CSS
 	.dropdown-menu
 	li.active
 	a {
-	color: #2AD396;
+	color: #2ad396;
 }
 .main-navbar
 	.navbar
@@ -1422,7 +1422,7 @@ Navbar Area CSS
 	.dropdown-menu
 	li.active
 	a {
-	color: #2AD396;
+	color: #2ad396;
 }
 .main-navbar
 	.navbar
@@ -1472,7 +1472,7 @@ Navbar Area CSS
 	.dropdown-menu
 	li.active
 	a {
-	color: #2AD396;
+	color: #2ad396;
 }
 .main-navbar
 	.navbar
@@ -1516,7 +1516,7 @@ Navbar Area CSS
 	.dropdown-menu
 	li.active
 	a {
-	color: #2AD396;
+	color: #2ad396;
 }
 .main-navbar
 	.navbar
@@ -1554,7 +1554,7 @@ Navbar Area CSS
 	.dropdown-menu
 	li.active
 	a {
-	color: #2AD396;
+	color: #2ad396;
 }
 .main-navbar
 	.navbar
@@ -1580,7 +1580,7 @@ Navbar Area CSS
 	visibility: visible;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
-	color: #2AD396;
+	color: #2ad396;
 }
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li.active a::before {
 	display: none;
@@ -1610,11 +1610,11 @@ Navbar Area CSS
 	color: #202647;
 }
 .main-navbar .navbar .others-options .option-item .hotline a:hover {
-	color: #2AD396;
+	color: #2ad396;
 }
 .main-navbar .navbar .others-options .option-item .default-btn {
 	padding: 12px 25px;
-	background-color: #2AD396;
+	background-color: #2ad396;
 }
 .main-navbar .navbar .others-options .option-item .default-btn:hover {
 	background-color: #0473b9;
@@ -1623,7 +1623,7 @@ Navbar Area CSS
 	margin-left: 20px;
 	font-size: 25px;
 	line-height: 1;
-	color: #2AD396;
+	color: #2ad396;
 	position: relative;
 	top: 5px;
 }
@@ -1650,7 +1650,7 @@ Navbar Area CSS
 	font-size: 25px;
 	transition: 0.5s;
 	line-height: 1;
-	color: #2AD396;
+	color: #2ad396;
 	position: relative;
 	top: 5px;
 }
@@ -1662,7 +1662,7 @@ Navbar Area CSS
 }
 
 .relative-color .main-navbar {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	padding: 10px 0;
 }
 .relative-color .main-navbar .navbar .navbar-nav .nav-item a {
@@ -1762,7 +1762,7 @@ Navbar Area CSS
 	.others-options
 	.option-item
 	.default-btn:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 }
 .navbar-optional-color .main-navbar .navbar .others-options .cart-wrapper-btn {
 	color: #0473b9;
@@ -1771,9 +1771,12 @@ Navbar Area CSS
 	color: #0473b9;
 }
 .navbar-optional-color .main-navbar .navbar .others-options .search-box:hover {
-	color: #2AD396;
+	color: #2ad396;
 }
 
+.is-sticky {
+	color: #000000 !important;
+}
 .navbar-area.is-sticky {
 	position: fixed;
 	top: 0;
@@ -1781,7 +1784,7 @@ Navbar Area CSS
 	width: 100%;
 	z-index: 999;
 	box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
-	background-color: #ffffff !important;
+	background-color: rgb(52, 190, 216) !important;
 	animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
 
@@ -1811,7 +1814,7 @@ Navbar Area CSS
 	background-color: #202647;
 }
 .others-option-for-responsive .dot-menu:hover .inner .circle {
-	background-color: #2AD396;
+	background-color: #2ad396;
 }
 .others-option-for-responsive .container {
 	position: relative;
@@ -1860,7 +1863,7 @@ Navbar Area CSS
 	.option-item
 	.hotline
 	a:hover {
-	color: #2AD396;
+	color: #2ad396;
 }
 .others-option-for-responsive
 	.option-inner
@@ -1875,7 +1878,7 @@ Navbar Area CSS
 	.others-options
 	.option-item
 	.default-btn:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 }
 .others-option-for-responsive .option-inner .others-options .cart-wrapper-btn {
 	margin-left: 20px;
@@ -1924,7 +1927,7 @@ Navbar Area CSS
 	line-height: 1;
 }
 .others-option-for-responsive .option-inner .others-options .search-box:hover {
-	color: #2AD396;
+	color: #2ad396;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -1943,7 +1946,7 @@ Navbar Area CSS
 		ul
 		li
 		a.active {
-		color: #2AD396;
+		color: #2ad396;
 	}
 	.main-responsive-nav
 		.main-responsive-menu.mean-container
@@ -2064,7 +2067,7 @@ Search Overlay CSS
 	transform: rotate(-45deg);
 }
 .search-overlay .search-overlay-close:hover .search-overlay-close-line {
-	background: #2AD396;
+	background: #2ad396;
 	transform: rotate(180deg);
 }
 .search-overlay .search-overlay-form {
@@ -2101,7 +2104,7 @@ Search Overlay CSS
 	color: #ffffff;
 	height: 45px;
 	border-radius: 50%;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	transition: 0.5s;
 	border: none;
 	font-size: 20px;
@@ -2135,6 +2138,7 @@ Main Banner Area CSS
 	position: relative;
 	overflow: hidden;
 	z-index: 1;
+	height: 100vh;
 }
 
 .main-banner-item {
@@ -2143,7 +2147,6 @@ Main Banner Area CSS
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-	height: 850px;
 	z-index: 1;
 }
 .main-banner-item::before {
@@ -2160,7 +2163,7 @@ Main Banner Area CSS
 }
 .main-banner-item.item-two {
 	background-image: url(../../assets/img/main-banner/banner-bg-2.jpg);
-	height: unset;
+	height: 100vh;
 	padding-top: 15px;
 }
 .main-banner-item.item-two .container-fluid {
@@ -2196,7 +2199,7 @@ Main Banner Area CSS
 	color: #ffffff;
 }
 .main-banner-item.item-two .main-banner-search-form form button:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 }
 .main-banner-item.item-two .main-banner-inner {
 	max-width: 630px;
@@ -2233,7 +2236,7 @@ Main Banner Area CSS
 	.main-banner-content
 	.banner-btn
 	.default-btn:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 }
 .main-banner-item.item-four {
 	background-image: url(../../assets/img/main-banner/banner-bg-4.jpg);
@@ -2289,14 +2292,14 @@ Main Banner Area CSS
 	margin-bottom: 0;
 	position: absolute;
 	left: 15px;
-	color: #2AD396;
+	color: #2ad396;
 	font-size: 22px;
 	top: 50%;
 	transform: translateY(-50%);
 }
 .main-banner-search-form form .form-group label a {
 	display: block;
-	color: #2AD396;
+	color: #2ad396;
 }
 .main-banner-search-form form .form-group .form-control {
 	display: block;
@@ -2333,7 +2336,7 @@ Main Banner Area CSS
 }
 .main-banner-search-form form button {
 	border: none;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 	height: 35px;
 	width: 35px;
@@ -2426,7 +2429,7 @@ Main Banner Area CSS
 	width: 100%;
 }
 .banner-form form .form-group .form-control:focus {
-	border-color: #2AD396;
+	border-color: #2ad396;
 	background-color: transparent;
 	outline: 0;
 }
@@ -2449,7 +2452,7 @@ Main Banner Area CSS
 	margin-bottom: 15px;
 }
 .banner-form form .nice-select:focus {
-	border-color: #2AD396;
+	border-color: #2ad396;
 	background-color: transparent;
 }
 .banner-form form .nice-select .list {
@@ -2470,7 +2473,7 @@ Main Banner Area CSS
 	font-size: 14px;
 }
 .banner-form form .nice-select .list .option:hover {
-	background-color: #2AD396 !important;
+	background-color: #2ad396 !important;
 	color: #ffffff;
 }
 .banner-form form .nice-select .list .option.selected {
@@ -2480,7 +2483,7 @@ Main Banner Area CSS
 .banner-form form .nice-select::after {
 	height: 8px;
 	width: 8px;
-	border-color: #2AD396;
+	border-color: #2ad396;
 	right: 15px;
 }
 .banner-form form .banner-btn {
@@ -2500,7 +2503,7 @@ Main Banner Area CSS
 	font-size: 15px;
 }
 .banner-form form .form-check a {
-	color: #2AD396;
+	color: #2ad396;
 }
 
 /*
@@ -2530,8 +2533,8 @@ Add Slider
 	transition: 0.5s;
 }
 .main-banner-slider.owl-carousel.owl-theme .owl-nav [class*="owl-"]:hover {
-	border: 1px solid #2AD396;
-	background-color: #2AD396;
+	border: 1px solid #2ad396;
+	background-color: #2ad396;
 	color: #ffffff;
 }
 
@@ -2546,7 +2549,7 @@ Add Slider
 	bottom: 100px;
 }
 .main-banner-slider-two.owl-carousel.owl-theme .owl-nav [class*="owl-"] {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 	display: inline-block;
 	padding: 0;
@@ -2559,9 +2562,9 @@ Add Slider
 	transition: 0.5s;
 }
 .main-banner-slider-two.owl-carousel.owl-theme .owl-nav [class*="owl-"]:hover {
-	border: 1px solid #2AD396;
+	border: 1px solid #2ad396;
 	background-color: #ffffff;
-	color: #2AD396;
+	color: #2ad396;
 }
 
 .main-banner-slider-three.owl-carousel.owl-theme {
@@ -2575,7 +2578,7 @@ Add Slider
 	bottom: 100px;
 }
 .main-banner-slider-three.owl-carousel.owl-theme .owl-nav [class*="owl-"] {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 	display: inline-block;
 	padding: 0;
@@ -2590,9 +2593,9 @@ Add Slider
 .main-banner-slider-three.owl-carousel.owl-theme
 	.owl-nav
 	[class*="owl-"]:hover {
-	border: 1px solid #2AD396;
+	border: 1px solid #2ad396;
 	background-color: #ffffff;
-	color: #2AD396;
+	color: #2ad396;
 }
 
 .main-banner-slider-four.owl-carousel.owl-theme {
@@ -2602,9 +2605,9 @@ Add Slider
 	margin-top: 0;
 }
 .main-banner-slider-four.owl-carousel.owl-theme .owl-nav [class*="owl-"] {
-	color: #2AD396;
+	color: #2ad396;
 	font-size: 30px;
-	border: 1px solid #2AD396;
+	border: 1px solid #2ad396;
 	width: 50px;
 	height: 50px;
 	line-height: 56px;
@@ -2624,7 +2627,7 @@ Add Slider
 	left: auto;
 }
 .main-banner-slider-four.owl-carousel.owl-theme .owl-nav [class*="owl-"]:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 }
 
@@ -2683,7 +2686,7 @@ Add Slider
 	bottom: 100px;
 }
 .main-banner-slider-nine.owl-carousel.owl-theme .owl-nav [class*="owl-"] {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 	display: inline-block;
 	padding: 0;
@@ -2696,9 +2699,9 @@ Add Slider
 	transition: 0.5s;
 }
 .main-banner-slider-nine.owl-carousel.owl-theme .owl-nav [class*="owl-"]:hover {
-	border: 1px solid #2AD396;
+	border: 1px solid #2ad396;
 	background-color: #ffffff;
-	color: #2AD396;
+	color: #2ad396;
 }
 
 /*================================================
@@ -2706,7 +2709,7 @@ Categories Area CSS
 =================================================*/
 .categories-area {
 	position: relative;
-	z-index: 1;
+	z-index: -1;
 	overflow: hidden;
 }
 
@@ -2735,7 +2738,7 @@ Categories Area CSS
 	font-size: 55px;
 }
 .categories-item .icon i:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 }
 .categories-item h3 {
@@ -2770,9 +2773,9 @@ Categories Area CSS
 	font-size: 55px;
 }
 .categories-item-box .icon i:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
-	border: 1px dashed #2AD396;
+	border: 1px dashed #2ad396;
 }
 .categories-item-box h3 {
 	font-size: 22px;
@@ -2799,8 +2802,8 @@ Categories Area CSS
 	transition: 0.5s;
 	background-color: transparent;
 	border-style: solid;
-	border-color: #2AD396;
-	color: #2AD396;
+	border-color: #2ad396;
+	color: #2ad396;
 	border-radius: 50%;
 	opacity: 0;
 	visibility: hidden;
@@ -2809,9 +2812,9 @@ Categories Area CSS
 .categories-slider.owl-theme .owl-nav .owl-prev:focus,
 .categories-slider.owl-theme .owl-nav .owl-next:hover,
 .categories-slider.owl-theme .owl-nav .owl-next:focus {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
-	border-color: #2AD396;
+	border-color: #2ad396;
 	box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
 }
 .categories-slider.owl-theme .owl-nav .owl-prev i,
@@ -2917,7 +2920,7 @@ About Area CSS
 .about-content .bar {
 	height: 5px;
 	width: 100px;
-	background: #2AD396;
+	background: #2ad396;
 	position: relative;
 	border-radius: 5px;
 	overflow: hidden;
@@ -2964,7 +2967,7 @@ About Area CSS
 	width: 30px;
 	line-height: 30px;
 	background-color: #dafafc;
-	color: #2AD396;
+	color: #2ad396;
 	text-align: center;
 	transition: 0.5s;
 	border-radius: 30px;
@@ -2974,7 +2977,7 @@ About Area CSS
 	transform: translateY(-50%);
 }
 .about-content .about-list li:hover i {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 }
 .about-content .about-btn {
@@ -3047,7 +3050,7 @@ Doctor Area CSS
 	width: 60px;
 	line-height: 60px;
 	background-color: #e8f1fa;
-	color: #2AD396;
+	color: #2ad396;
 	font-size: 30px;
 	text-align: center;
 	border-radius: 50px;
@@ -3057,7 +3060,7 @@ Doctor Area CSS
 	transition: 0.5s;
 }
 .single-doctor .doctor-image a i:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 }
 .single-doctor .doctor-content {
@@ -3080,7 +3083,7 @@ Doctor Area CSS
 .single-doctor .doctor-content .department-btn {
 	display: inline-block;
 	padding: 8px 20px;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 	border-radius: 10px;
 	transition: 0.5s;
@@ -3125,7 +3128,7 @@ Doctor Area CSS
 }
 .single-doctor .doctor-content .information-list li i {
 	font-size: 16px;
-	color: #2AD396;
+	color: #2ad396;
 	position: absolute;
 	left: 0;
 	top: 50%;
@@ -3138,12 +3141,12 @@ Doctor Area CSS
 	margin-right: 10px;
 }
 .single-doctor .doctor-content .doctor-btn .default-btn:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 }
 .single-doctor .doctor-content .doctor-btn .optional-btn {
 	display: inline-block;
 	padding: 10px 25px;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 	border-radius: 10px;
 	transition: 0.5s;
@@ -3251,7 +3254,7 @@ Queries Area CSS
 .queries-form form .form-group .form-control:focus {
 	box-shadow: none;
 	background-color: transparent;
-	border: 1px solid #2AD396;
+	border: 1px solid #2ad396;
 }
 .queries-form form .form-group .form-control:focus::-moz-placeholder {
 	color: transparent;
@@ -3269,14 +3272,14 @@ Queries Area CSS
 	margin-bottom: 0;
 	position: absolute;
 	left: 15px;
-	color: #2AD396;
+	color: #2ad396;
 	font-size: 22px;
 	top: 50%;
 	transform: translateY(-50%);
 }
 .queries-form form .form-group label a {
 	display: block;
-	color: #2AD396;
+	color: #2ad396;
 }
 .queries-form form .nice-select {
 	height: 60px;
@@ -3294,7 +3297,7 @@ Queries Area CSS
 }
 .queries-form form .nice-select:focus {
 	background-color: transparent;
-	border: 1px solid #2AD396;
+	border: 1px solid #2ad396;
 }
 .queries-form form .nice-select .list {
 	background-color: #ffffff;
@@ -3314,7 +3317,7 @@ Queries Area CSS
 	font-size: 14px;
 }
 .queries-form form .nice-select .list .option:hover {
-	background-color: #2AD396 !important;
+	background-color: #2ad396 !important;
 	color: #ffffff;
 }
 .queries-form form .nice-select .list .option.selected {
@@ -3324,7 +3327,7 @@ Queries Area CSS
 .queries-form form .nice-select::after {
 	height: 8px;
 	width: 8px;
-	border-color: #2AD396;
+	border-color: #2ad396;
 	right: 15px;
 }
 .queries-form form .queries-btn {
@@ -3343,7 +3346,7 @@ Queries Area CSS
 	font-size: 15px;
 }
 .queries-form form .form-check a {
-	color: #2AD396;
+	color: #2ad396;
 }
 .queries-form.queries-form-width {
 	max-width: 100vh;
@@ -3386,7 +3389,7 @@ Overview Area CSS
 .overview-content .bar {
 	height: 5px;
 	width: 100px;
-	background: #2AD396;
+	background: #2ad396;
 	position: relative;
 	border-radius: 5px;
 	overflow: hidden;
@@ -3421,7 +3424,7 @@ Overview Area CSS
 	width: 75px;
 	height: 75px;
 	line-height: 75px;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	border-radius: 50%;
 	color: #ffffff;
 	position: absolute;
@@ -3450,7 +3453,7 @@ Overview Area CSS
 	background-color: #ffffff;
 }
 .overview-image .video-btn:hover i {
-	color: #2AD396;
+	color: #2ad396;
 }
 
 @keyframes ripple {
@@ -3520,7 +3523,7 @@ Client Area CSS
 .client-item .client-info span {
 	font-size: 14px;
 	font-weight: 500;
-	color: #2AD396;
+	color: #2ad396;
 }
 
 .client-slider.owl-theme .owl-dots {
@@ -3536,7 +3539,7 @@ Client Area CSS
 	transition: 0.5s;
 	border-radius: 50%;
 	margin: 5px 5px;
-	border: 1px solid #2AD396;
+	border: 1px solid #2ad396;
 	position: relative;
 }
 .client-slider.owl-theme .owl-dots .owl-dot span::before {
@@ -3546,7 +3549,7 @@ Client Area CSS
 	top: 0;
 	right: 0;
 	bottom: 0;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	border-radius: 50%;
 	margin: 4px;
 	opacity: 0;
@@ -3597,7 +3600,7 @@ Blog Area CSS
 	position: absolute;
 	bottom: 20px;
 	left: 20px;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	font-size: 15px;
 	font-weight: 500;
 	color: #ffffff;
@@ -3621,7 +3624,7 @@ Blog Area CSS
 }
 .single-blog .blog-content .blog-btn {
 	font-size: 15px;
-	color: #2AD396;
+	color: #2ad396;
 	font-weight: 500;
 	transition: 0.5s;
 }
@@ -3632,7 +3635,7 @@ Blog Area CSS
 	transform: rotate(2deg) scale(1.2);
 }
 .single-blog:hover .blog-content h3 a {
-	color: #2AD396;
+	color: #2ad396;
 }
 .single-blog:hover .blog-content .blog-btn {
 	letter-spacing: 1px;
@@ -3642,7 +3645,7 @@ Blog Area CSS
 Fun Facts Area CSS
 =================================================*/
 .fun-facts-area {
-	background-color: #2AD396;
+	background-color: #2ad396;
 }
 
 .single-fun-fact {
@@ -3724,7 +3727,7 @@ Newsletter Area CSS
 	position: absolute;
 	right: 4px;
 	top: 4px;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 	border: none;
 	height: 62px;
@@ -3799,7 +3802,7 @@ Healthcare Area CSS
 	width: 30px;
 	line-height: 30px;
 	background-color: #dafafc;
-	color: #2AD396;
+	color: #2ad396;
 	text-align: center;
 	transition: 0.5s;
 	border-radius: 30px;
@@ -3810,7 +3813,7 @@ Healthcare Area CSS
 	transform: translateY(-50%);
 }
 .healthcare-content .healthcare-list li:hover i {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 }
 .healthcare-content .healthcare-btn {
@@ -3818,11 +3821,11 @@ Healthcare Area CSS
 }
 .healthcare-content .healthcare-btn .default-btn {
 	background-color: #ffffff;
-	color: #2AD396;
+	color: #2ad396;
 	padding: 12px 25px;
 }
 .healthcare-content .healthcare-btn .default-btn:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 }
 
@@ -3960,7 +3963,7 @@ Specialist Area CSS
 	width: 35px;
 	line-height: 35px;
 	background-color: #ffffff;
-	color: #2AD396;
+	color: #2ad396;
 	box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
 	text-align: center;
 	font-size: 18px;
@@ -3968,7 +3971,7 @@ Specialist Area CSS
 	transition: 0.5s;
 }
 .specialist-inner .specialist-content .specialist-info li a i:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 	transform: translateY(-2px);
 }
@@ -3977,10 +3980,10 @@ Specialist Area CSS
 }
 .specialist-inner .specialist-content .specialist-btn .default-btn {
 	background-color: #ffffff;
-	color: #2AD396;
+	color: #2ad396;
 }
 .specialist-inner .specialist-content .specialist-btn .default-btn:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 }
 .specialist-inner .specialist-shape {
@@ -4046,7 +4049,7 @@ Team Area CSS
 	color: #202647;
 }
 .team-card .content span {
-	color: #2AD396;
+	color: #2ad396;
 	display: inline-block;
 }
 .team-card .content .social-link {
@@ -4067,12 +4070,12 @@ Team Area CSS
 	line-height: 35px;
 	text-align: center;
 	color: #ffffff;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	border-radius: 50%;
 	transition: 0.5s;
 }
 .team-card .content .social-link li i:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 }
 .team-card:hover .content .social-link {
 	opacity: 1;
@@ -4170,7 +4173,7 @@ Process Area CSS
 .single-process .process-form form .form-group .form-control:focus {
 	box-shadow: none;
 	background-color: transparent;
-	border: 1px solid #2AD396;
+	border: 1px solid #2ad396;
 }
 .single-process
 	.process-form
@@ -4202,7 +4205,7 @@ Process Area CSS
 }
 .single-process .process-form form .nice-select:focus {
 	background-color: transparent;
-	border: 1px solid #2AD396;
+	border: 1px solid #2ad396;
 }
 .single-process .process-form form .nice-select .list {
 	background-color: #ffffff;
@@ -4222,7 +4225,7 @@ Process Area CSS
 	font-size: 14px;
 }
 .single-process .process-form form .nice-select .list .option:hover {
-	background-color: #2AD396 !important;
+	background-color: #2ad396 !important;
 	color: #ffffff;
 }
 .single-process .process-form form .nice-select .list .option.selected {
@@ -4232,7 +4235,7 @@ Process Area CSS
 .single-process .process-form form .nice-select::after {
 	height: 8px;
 	width: 8px;
-	border-color: #2AD396;
+	border-color: #2ad396;
 	right: 15px;
 }
 .single-process .process-form form .process-btn .default-btn {
@@ -4246,7 +4249,7 @@ Process Area CSS
 	border-radius: 5px;
 }
 .single-process .process-form form .process-btn .default-btn:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 }
 
 /*================================================
@@ -4304,7 +4307,7 @@ Consult Area CSS
 	font-size: 15px;
 }
 .consult-content .consult-inner-content:hover .icon i {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 }
 
@@ -4444,7 +4447,7 @@ Testimonial Area CSS
 	transition: 0.5s;
 }
 .testimonial-item .icon i:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 }
 .testimonial-item p {
@@ -4469,7 +4472,7 @@ Testimonial Area CSS
 .testimonial-item .testimonial-info span {
 	font-size: 14px;
 	font-weight: 500;
-	color: #2AD396;
+	color: #2ad396;
 }
 
 .testimonial-shape {
@@ -4515,7 +4518,7 @@ Services Area CSS
 }
 .single-services .services-content .read-more-btn {
 	display: inline-block;
-	color: #2AD396;
+	color: #2ad396;
 	font-weight: 500;
 	transition: 0.5s;
 }
@@ -4526,7 +4529,7 @@ Services Area CSS
 	bottom: 0;
 	width: 100%;
 	height: 0%;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	z-index: -1;
 	transition: 0.5s;
 	border-radius: 0 0 5px 5px;
@@ -4608,7 +4611,7 @@ Pricing Area CSS
 }
 .single-pricing-table .price {
 	font-size: 50px;
-	color: #2AD396;
+	color: #2ad396;
 	margin-top: 20px;
 	margin-bottom: 25px;
 	line-height: 1;
@@ -4627,7 +4630,7 @@ Pricing Area CSS
 	margin-bottom: 0;
 }
 .single-pricing-table .pricing-features li i {
-	color: #2AD396;
+	color: #2ad396;
 	margin-right: 5px;
 	font-size: 15px;
 }
@@ -4643,7 +4646,7 @@ Pricing Area CSS
 	font-size: 15px;
 }
 .single-pricing-table:hover {
-	border: 1px solid #2AD396;
+	border: 1px solid #2ad396;
 }
 
 /*================================================
@@ -4703,7 +4706,7 @@ Page Banner CSS
 	list-style-type: none;
 	margin-left: 15px;
 	font-weight: 600;
-	color: #2AD396;
+	color: #2ad396;
 	position: relative;
 }
 .page-banner-content ul li::before {
@@ -4713,7 +4716,7 @@ Page Banner CSS
 	top: 6px;
 	height: 12px;
 	width: 1px;
-	background: #2AD396;
+	background: #2ad396;
 }
 .page-banner-content ul li:first-child {
 	margin-left: 0;
@@ -4746,7 +4749,7 @@ Page Banner CSS
 	list-style-type: none;
 	margin-left: 15px;
 	font-weight: 600;
-	color: #2AD396;
+	color: #2ad396;
 	position: relative;
 	font-size: 15px;
 }
@@ -4757,7 +4760,7 @@ Page Banner CSS
 	top: 6px;
 	height: 12px;
 	width: 1px;
-	background: #2AD396;
+	background: #2ad396;
 }
 .page-banner-content-two ul li:first-child {
 	margin-left: 0;
@@ -4835,7 +4838,7 @@ My Account Area CSS
 	content: "";
 	left: 0;
 	bottom: 0;
-	border-bottom: 1px solid #2AD396;
+	border-bottom: 1px solid #2ad396;
 	height: 100%;
 	width: 100px;
 }
@@ -4863,7 +4866,7 @@ My Account Area CSS
 	font-weight: 400;
 }
 .login-form form .form-group .form-control:focus {
-	border: 1px solid #2AD396;
+	border: 1px solid #2ad396;
 	background-color: transparent;
 }
 .login-form form .form-group .form-control:focus::-moz-placeholder {
@@ -4903,7 +4906,7 @@ My Account Area CSS
 	transition: 0.5s;
 	bottom: 0;
 	content: "";
-	background-color: #2AD396;
+	background-color: #2ad396;
 }
 .login-form form .lost-your-password a:hover::before {
 	width: 0;
@@ -4918,7 +4921,7 @@ My Account Area CSS
 	width: 100%;
 	border-radius: 5px;
 	cursor: pointer;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 	transition: 0.5s;
 }
@@ -4950,7 +4953,7 @@ My Account Area CSS
 	content: "";
 	left: 0;
 	bottom: 0;
-	border-bottom: 1px solid #2AD396;
+	border-bottom: 1px solid #2ad396;
 	height: 100%;
 	width: 100px;
 }
@@ -4978,7 +4981,7 @@ My Account Area CSS
 	font-weight: 400;
 }
 .register-form form .form-group .form-control:focus {
-	border: 1px solid #2AD396;
+	border: 1px solid #2ad396;
 	background-color: transparent;
 }
 .register-form form .form-group .form-control:focus::-moz-placeholder {
@@ -5002,7 +5005,7 @@ My Account Area CSS
 	width: 100%;
 	border-radius: 5px;
 	cursor: pointer;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 	transition: 0.5s;
 }
@@ -5034,7 +5037,7 @@ Change Password Area CSS
 	content: "";
 	left: 0;
 	bottom: 0;
-	border-bottom: 1px solid #2AD396;
+	border-bottom: 1px solid #2ad396;
 	height: 100%;
 	width: 100px;
 }
@@ -5062,7 +5065,7 @@ Change Password Area CSS
 	font-weight: 400;
 }
 .change-password-form form .form-group .form-control:focus {
-	border: 1px solid #2AD396;
+	border: 1px solid #2ad396;
 	background-color: transparent;
 }
 .change-password-form form .form-group .form-control:focus::-moz-placeholder {
@@ -5080,7 +5083,7 @@ Change Password Area CSS
 	width: 100%;
 	border-radius: 5px;
 	cursor: pointer;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 	transition: 0.5s;
 }
@@ -5125,13 +5128,13 @@ FAQ Area CSS
 }
 .faq-accordion .accordion .accordion-title.active i::before {
 	content: "\ebc0";
-	color: #2AD396;
+	color: #2ad396;
 }
 .faq-accordion .accordion .accordion-content {
 	display: none;
 	position: relative;
 	padding: 18px 20px;
-	border-top: 1px solid #2AD396;
+	border-top: 1px solid #2ad396;
 	color: #6b6b84;
 	font-size: 15px;
 	font-weight: 400;
@@ -5171,7 +5174,7 @@ FAQ Area CSS
 	display: inline-block;
 	padding: 15px 30px;
 	border-radius: 30px;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 	transition: 0.5s;
 }
@@ -5216,13 +5219,13 @@ Terms of Service Area CSS
 }
 .terms-of-service-accordion .accordion .accordion-title.active i::before {
 	content: "\ebc0";
-	color: #2AD396;
+	color: #2ad396;
 }
 .terms-of-service-accordion .accordion .accordion-content {
 	display: none;
 	position: relative;
 	padding: 18px 20px;
-	border-top: 1px solid #2AD396;
+	border-top: 1px solid #2ad396;
 	color: #6b6b84;
 	font-size: 15px;
 	font-weight: 400;
@@ -5268,13 +5271,13 @@ Privacy policy Area CSS
 }
 .privacy-policy-accordion .accordion .accordion-title.active i::before {
 	content: "\ebc0";
-	color: #2AD396;
+	color: #2ad396;
 }
 .privacy-policy-accordion .accordion .accordion-content {
 	display: none;
 	position: relative;
 	padding: 18px 20px;
-	border-top: 1px solid #2AD396;
+	border-top: 1px solid #2ad396;
 	color: #6b6b84;
 	font-size: 15px;
 	font-weight: 400;
@@ -5453,7 +5456,7 @@ Contact Info Area CSS
 	background: #f5f5f5;
 	border-radius: 50%;
 	font-size: 35px;
-	color: #2AD396;
+	color: #2ad396;
 	transition: 0.5s;
 }
 .contact-info-box h3 {
@@ -5470,7 +5473,7 @@ Contact Info Area CSS
 	color: #6b6b84;
 }
 .contact-info-box p a:hover {
-	color: #2AD396;
+	color: #2ad396;
 }
 .contact-info-box p:last-child {
 	margin-bottom: 0;
@@ -5479,7 +5482,7 @@ Contact Info Area CSS
 	transform: translateY(-10px);
 }
 .contact-info-box:hover .icon i {
-	background: #2AD396;
+	background: #2ad396;
 	color: #ffffff;
 }
 
@@ -5497,7 +5500,7 @@ Contact Area CSS
 .contact-form .title span {
 	font-size: 16px;
 	font-weight: 500;
-	color: #2AD396;
+	color: #2ad396;
 }
 .contact-form .title h3 {
 	font-size: 30px;
@@ -5532,7 +5535,7 @@ Contact Area CSS
 .contact-form .form-group .form-control:focus {
 	outline: 0;
 	background-color: #ffffff;
-	border-color: #2AD396;
+	border-color: #2ad396;
 	box-shadow: none;
 }
 .contact-form .form-group .form-control:focus::-moz-placeholder {
@@ -5560,7 +5563,7 @@ Contact Area CSS
 	font-size: 15px;
 }
 .contact-form .form-check a {
-	color: #2AD396;
+	color: #2ad396;
 }
 .contact-form #msgSubmit {
 	margin: 0;
@@ -5608,7 +5611,7 @@ Pagination Area CSS
 .pagination-area .page-numbers.current,
 .pagination-area .page-numbers:hover,
 .pagination-area .page-numbers:focus {
-	background: #2AD396;
+	background: #2ad396;
 	color: #ffffff;
 	box-shadow: 0 2px 10px 0 #d8dde6;
 }
@@ -5683,7 +5686,7 @@ Service details Area CSS
 	li
 	a:hover {
 	color: #ffffff;
-	background: #2AD396;
+	background: #2ad396;
 	transform: translateY(-2px);
 }
 .service-details-content
@@ -5698,8 +5701,8 @@ Service details Area CSS
 	padding: 12px 30px;
 	color: #ffffff;
 	text-transform: capitalize;
-	background-color: #2AD396;
-	border: 1px solid #2AD396;
+	background-color: #2ad396;
+	border: 1px solid #2ad396;
 	transition: 0.5s;
 	border-radius: 30px;
 	font-size: 14px;
@@ -5710,7 +5713,7 @@ Service details Area CSS
 	.single-info-box
 	.default-btn:hover {
 	background-color: #ffffff;
-	color: #2AD396;
+	color: #2ad396;
 }
 .service-details-content .service-details-info .single-info-box:first-child {
 	padding-left: 0;
@@ -5764,7 +5767,7 @@ Blog Details Area CSS
 	margin-bottom: 0;
 }
 .blog-details-desc .article-content .features-list li i {
-	color: #2AD396;
+	color: #2ad396;
 	margin-right: 5px;
 }
 .blog-details-desc .article-content .details-image img {
@@ -5780,7 +5783,7 @@ blockquote,
 	border-radius: 5px;
 	position: relative;
 	z-index: 1;
-	border-left: 1px solid #2AD396;
+	border-left: 1px solid #2ad396;
 }
 blockquote .icon,
 .blockquote .icon {
@@ -5793,7 +5796,7 @@ blockquote .icon,
 blockquote .icon i,
 .blockquote .icon i {
 	font-size: 30px;
-	color: #2AD396;
+	color: #2ad396;
 }
 blockquote p,
 .blockquote p {
@@ -5821,7 +5824,7 @@ blockquote p,
 	width: 100px;
 	height: 1px;
 	bottom: -1px;
-	background: #2AD396;
+	background: #2ad396;
 }
 .comments-area ol,
 .comments-area ul {
@@ -5859,8 +5862,8 @@ blockquote p,
 }
 .comments-area .comment-body .reply a:hover {
 	color: #ffffff;
-	background-color: #2AD396;
-	border: 1px solid #2AD396;
+	background-color: #2ad396;
+	border: 1px solid #2ad396;
 }
 .comments-area .comment-author {
 	font-size: 18px;
@@ -5910,7 +5913,7 @@ blockquote p,
 	width: 100px;
 	height: 1px;
 	bottom: -1px;
-	background: #2AD396;
+	background: #2ad396;
 }
 .comments-area .comment-respond .comment-form {
 	overflow: hidden;
@@ -5957,7 +5960,7 @@ blockquote p,
 .comments-area .comment-respond input[type="tel"]:focus,
 .comments-area .comment-respond input[type="number"]:focus,
 .comments-area .comment-respond textarea:focus {
-	border: 1px solid #2AD396;
+	border: 1px solid #2ad396;
 }
 .comments-area .comment-respond input[type="date"]::-moz-placeholder,
 .comments-area .comment-respond input[type="time"]::-moz-placeholder,
@@ -6031,7 +6034,7 @@ blockquote p,
 	width: 100%;
 }
 .comments-area .comment-respond .form-submit input {
-	background: #2AD396;
+	background: #2ad396;
 	border: none;
 	color: #ffffff;
 	padding: 10px 30px 10px;
@@ -6071,7 +6074,7 @@ Widget Sidebar CSS
 	width: 50px;
 	height: 1px;
 	bottom: -1px;
-	background: #2AD396;
+	background: #2ad396;
 }
 .widget-area .widget_search {
 	background-color: #ffffff;
@@ -6100,12 +6103,12 @@ Widget Sidebar CSS
 	border-radius: 5px;
 }
 .widget-area .widget_search form .search-field:focus {
-	border-color: #2AD396;
+	border-color: #2ad396;
 }
 .widget-area .widget_search form button {
 	border: none;
 	background-color: #eeeeee;
-	color: #2AD396;
+	color: #2ad396;
 	height: 40px;
 	width: 40px;
 	position: absolute;
@@ -6126,7 +6129,7 @@ Widget Sidebar CSS
 }
 .widget-area .widget_search form button:hover,
 .widget-area .widget_search form button:focus {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 }
 .widget-area .widget_categories {
@@ -6148,7 +6151,7 @@ Widget Sidebar CSS
 	padding-left: 14px;
 }
 .widget-area .widget_categories ul li::before {
-	background: #2AD396;
+	background: #2ad396;
 	height: 8px;
 	width: 8px;
 	content: "";
@@ -6168,7 +6171,7 @@ Widget Sidebar CSS
 	width: 100%;
 }
 .widget-area .widget_categories ul li a:hover {
-	color: #2AD396;
+	color: #2ad396;
 }
 .widget-area .widget_categories ul li a i {
 	font-size: 20px;
@@ -6250,7 +6253,7 @@ Widget Sidebar CSS
 	transition: 0.5s;
 }
 .widget-area .widget_childdr_posts_thumb .item .info .title a:hover {
-	color: #2AD396;
+	color: #2ad396;
 }
 .widget-area .widget_tag_cloud {
 	background-color: #ffffff;
@@ -6275,7 +6278,7 @@ Widget Sidebar CSS
 .widget-area .tagcloud a:hover,
 .widget-area .tagcloud a:focus {
 	color: #ffffff;
-	background-color: #2AD396;
+	background-color: #2ad396;
 }
 .widget-area .widget_popular_products {
 	position: relative;
@@ -6348,7 +6351,7 @@ Widget Sidebar CSS
 	display: inline-block;
 }
 .widget-area .widget_popular_products .item .info .title a:hover {
-	color: #2AD396;
+	color: #2ad396;
 }
 .widget-area .widget_popular_products .item .info .rating {
 	margin-top: 8px;
@@ -6375,7 +6378,7 @@ Products Area CSS
 .childdr-grid-sorting .ordering label {
 	display: inline-block;
 	margin-bottom: 0;
-	color: #2AD396;
+	color: #2ad396;
 	margin-right: 5px;
 	font-weight: 600;
 }
@@ -6418,7 +6421,7 @@ Products Area CSS
 	font-weight: 500;
 }
 .childdr-grid-sorting .ordering .nice-select .list .option:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 }
 .childdr-grid-sorting .ordering .nice-select:after {
@@ -6428,7 +6431,7 @@ Products Area CSS
 	margin-top: -5px;
 }
 .childdr-grid-sorting .ordering .nice-select:hover {
-	border-color: #2AD396;
+	border-color: #2ad396;
 	background-color: transparent;
 }
 
@@ -6462,13 +6465,13 @@ Products Area CSS
 	color: #202647;
 }
 .single-products-box .products-content h3 a:hover {
-	color: #2AD396;
+	color: #2ad396;
 }
 .single-products-box .products-content .price {
 	margin-top: 15px;
 	transition: 0.5s;
 	font-weight: 600;
-	color: #2AD396;
+	color: #2ad396;
 }
 .single-products-box .products-content .price .old-price {
 	text-decoration: line-through;
@@ -6499,7 +6502,7 @@ Products Area CSS
 	font-size: 15px;
 }
 .single-products-box .products-content .add-to-cart:hover {
-	color: #2AD396;
+	color: #2ad396;
 }
 .single-products-box:hover .products-content .price {
 	opacity: 0;
@@ -6556,10 +6559,10 @@ Cart Area CSS
 	text-decoration: none;
 }
 .cart-table table tbody tr td.product-name a:hover {
-	color: #2AD396;
+	color: #2ad396;
 }
 .cart-table table tbody tr td.product-subtotal .remove {
-	color: #2AD396;
+	color: #2ad396;
 	float: right;
 	position: relative;
 	top: -1px;
@@ -6589,11 +6592,11 @@ Cart Area CSS
 	right: 0;
 }
 .cart-table table tbody tr td.product-quantity .input-counter span:hover {
-	color: #2AD396;
+	color: #2ad396;
 }
 .cart-table table tbody tr td.product-quantity .input-counter input {
 	height: 45px;
-	color: #2AD396;
+	color: #2ad396;
 	outline: 0;
 	display: block;
 	border: none;
@@ -6611,7 +6614,7 @@ Cart Area CSS
 	td.product-quantity
 	.input-counter
 	input::-moz-placeholder {
-	color: #2AD396;
+	color: #2ad396;
 }
 .cart-table
 	table
@@ -6620,7 +6623,7 @@ Cart Area CSS
 	td.product-quantity
 	.input-counter
 	input::placeholder {
-	color: #2AD396;
+	color: #2ad396;
 }
 .cart-table table tbody tr td.product-subtotal {
 	overflow: hidden;
@@ -6656,7 +6659,7 @@ Cart Area CSS
 	color: #6b6b84;
 }
 .cart-buttons .shopping-coupon-code .form-control:focus {
-	border-color: #2AD396;
+	border-color: #2ad396;
 	background-color: transparent;
 }
 .cart-buttons .shopping-coupon-code .form-control:focus::-moz-placeholder {
@@ -6682,7 +6685,7 @@ Cart Area CSS
 	cursor: pointer;
 }
 .cart-buttons .shopping-coupon-code button:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 }
 .cart-buttons .default-btn {
 	padding: 12px 25px;
@@ -6740,12 +6743,12 @@ Checkout CSS
 	box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
 	background: #ffffff;
 	padding: 15px 20px;
-	border-top: 3px solid #2AD396;
+	border-top: 3px solid #2ad396;
 	position: relative;
 	margin-bottom: 40px;
 }
 .user-actions i {
-	color: #2AD396;
+	color: #2ad396;
 	margin-right: 2px;
 	font-size: 20px;
 	position: relative;
@@ -6754,7 +6757,7 @@ Checkout CSS
 .user-actions span {
 	display: inline-block;
 	font-weight: 500;
-	color: #2AD396;
+	color: #2ad396;
 }
 .user-actions span a {
 	display: inline-block;
@@ -6762,7 +6765,7 @@ Checkout CSS
 }
 .user-actions span a:hover,
 .user-actions span a:focus {
-	color: #2AD396;
+	color: #2ad396;
 }
 
 .billing-details .title {
@@ -6776,7 +6779,7 @@ Checkout CSS
 .billing-details .title::before {
 	content: "";
 	position: absolute;
-	background: #2AD396;
+	background: #2ad396;
 	bottom: -1px;
 	left: 0;
 	width: 50px;
@@ -6819,7 +6822,7 @@ Checkout CSS
 	padding-right: 20px;
 }
 .billing-details .form-group .nice-select .list .option:hover {
-	background-color: #2AD396 !important;
+	background-color: #2ad396 !important;
 	color: #ffffff;
 }
 .billing-details .form-group .nice-select .list .option.selected {
@@ -6887,7 +6890,7 @@ Checkout CSS
 .order-details .title::before {
 	content: "";
 	position: absolute;
-	background: #2AD396;
+	background: #2ad396;
 	bottom: -1px;
 	left: 0;
 	width: 50px;
@@ -6918,7 +6921,7 @@ Checkout CSS
 	display: inline-block;
 }
 .order-details .order-table table tbody tr td.product-name a:hover {
-	color: #2AD396;
+	color: #2ad396;
 }
 .order-details .order-table table tbody tr td.order-subtotal span,
 .order-details .order-table table tbody tr td.order-shipping span,
@@ -6994,7 +6997,7 @@ Checkout CSS
 	content: "";
 	width: 12px;
 	height: 12px;
-	background: #2AD396;
+	background: #2ad396;
 	position: absolute;
 	top: 6px;
 	left: 3px;
@@ -7081,8 +7084,8 @@ Product Details CSS
 	line-height: initial;
 }
 .product-details-desc .product-review .rating-count:hover {
-	color: #2AD396;
-	border-color: #2AD396;
+	color: #2ad396;
+	border-color: #2ad396;
 	text-decoration: none;
 }
 .product-details-desc .product-add-to-cart {
@@ -7114,7 +7117,7 @@ Product Details CSS
 	right: 0;
 }
 .product-details-desc .product-add-to-cart .input-counter span:hover {
-	color: #2AD396;
+	color: #2ad396;
 }
 .product-details-desc .product-add-to-cart .input-counter input {
 	height: 50px;
@@ -7140,9 +7143,9 @@ Product Details CSS
 .product-details-desc .product-add-to-cart .default-btn {
 	position: relative;
 	padding: 12px 30px;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
-	border: 1px solid #2AD396;
+	border: 1px solid #2ad396;
 	cursor: pointer;
 }
 .product-details-desc .product-add-to-cart .default-btn i {
@@ -7150,7 +7153,7 @@ Product Details CSS
 }
 .product-details-desc .product-add-to-cart .default-btn:hover {
 	background-color: #ffffff;
-	color: #2AD396;
+	color: #2ad396;
 	transition: 0.5s;
 }
 .product-details-desc .buy-checkbox-btn {
@@ -7216,15 +7219,15 @@ Product Details CSS
 	color: #666666;
 }
 .product-details-desc .buy-checkbox-btn .cbx:hover span:first-child {
-	border-color: #2AD396;
+	border-color: #2ad396;
 }
 .product-details-desc
 	.buy-checkbox-btn
 	.inp-cbx:checked
 	+ .cbx
 	span:first-child {
-	background: #2AD396;
-	border-color: #2AD396;
+	background: #2ad396;
+	border-color: #2ad396;
 	animation: wave 0.4s ease;
 }
 .product-details-desc
@@ -7257,7 +7260,7 @@ Product Details CSS
 	width: 100%;
 }
 .product-details-desc .buy-checkbox-btn .btn-light:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 }
 .product-details-desc .products-share {
@@ -7284,16 +7287,16 @@ Product Details CSS
 	height: 35px;
 	line-height: 35px;
 	border-radius: 50%;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
-	border: 1px solid #2AD396;
+	border: 1px solid #2ad396;
 	text-align: center;
 	font-size: 18px;
 	margin-left: 2px;
 }
 .product-details-desc .products-share .social li a:hover,
 .product-details-desc .products-share .social li a:focus {
-	color: #2AD396;
+	color: #2ad396;
 	background-color: transparent;
 }
 .product-details-desc .products-share .social li a.facebook {
@@ -7370,7 +7373,7 @@ Product Details CSS
 	left: 0;
 	width: 0;
 	height: 3px;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	transition: 0.5s;
 	bottom: -2px;
 }
@@ -7452,32 +7455,32 @@ Product Details CSS
 .products-details-tabs .tab-content .tab-pane .products-reviews .bar-5 {
 	width: 70%;
 	height: 18px;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	border-radius: 5px;
 }
 .products-details-tabs .tab-content .tab-pane .products-reviews .bar-4 {
 	width: 20%;
 	height: 18px;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	border-radius: 5px;
 	border-radius: 5px;
 }
 .products-details-tabs .tab-content .tab-pane .products-reviews .bar-3 {
 	width: 5%;
 	height: 18px;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	border-radius: 5px;
 }
 .products-details-tabs .tab-content .tab-pane .products-reviews .bar-2 {
 	width: 3%;
 	height: 18px;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	border-radius: 5px;
 }
 .products-details-tabs .tab-content .tab-pane .products-reviews .bar-1 {
 	width: 2%;
 	height: 18px;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	border-radius: 5px;
 }
 .products-details-tabs .tab-content .tab-pane .products-review-form {
@@ -7691,7 +7694,7 @@ Product Details CSS
 	.products-review-form
 	.review-form
 	.form-control:focus {
-	border-color: #2AD396;
+	border-color: #2ad396;
 	background-color: transparent;
 }
 .products-details-tabs
@@ -7756,7 +7759,7 @@ Doctor Details CSS
 	margin-bottom: 10px;
 }
 .doctor-details-image .details-content span {
-	color: #2AD396;
+	color: #2ad396;
 	font-size: 16px;
 	font-weight: 500;
 }
@@ -7773,7 +7776,7 @@ Doctor Details CSS
 }
 .doctor-details-image .details-content .share-link li a i {
 	display: inline-block;
-	color: #2AD396;
+	color: #2ad396;
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
@@ -7784,7 +7787,7 @@ Doctor Details CSS
 	transition: 0.5s;
 }
 .doctor-details-image .details-content .share-link li a i:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 	transform: translateY(-2px);
 }
@@ -7831,7 +7834,7 @@ Doctor Details CSS
 	left: 0;
 	width: 0;
 	height: 100%;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	transition: 0.5s;
 	bottom: 0;
 	z-index: -1;
@@ -7858,7 +7861,7 @@ Doctor Details CSS
 	margin-bottom: 5px;
 }
 .doctor-details-tabs .tab-content .tab-pane .designation-title span {
-	color: #2AD396;
+	color: #2ad396;
 }
 .doctor-details-tabs .tab-content .tab-pane h3 {
 	font-size: 22px;
@@ -8026,32 +8029,32 @@ Doctor Details CSS
 .doctor-details-tabs .tab-content .tab-pane .doctor-reviews .bar-5 {
 	width: 70%;
 	height: 18px;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	border-radius: 5px;
 }
 .doctor-details-tabs .tab-content .tab-pane .doctor-reviews .bar-4 {
 	width: 20%;
 	height: 18px;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	border-radius: 5px;
 	border-radius: 5px;
 }
 .doctor-details-tabs .tab-content .tab-pane .doctor-reviews .bar-3 {
 	width: 5%;
 	height: 18px;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	border-radius: 5px;
 }
 .doctor-details-tabs .tab-content .tab-pane .doctor-reviews .bar-2 {
 	width: 3%;
 	height: 18px;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	border-radius: 5px;
 }
 .doctor-details-tabs .tab-content .tab-pane .doctor-reviews .bar-1 {
 	width: 2%;
 	height: 18px;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	border-radius: 5px;
 }
 .doctor-details-tabs .tab-content .tab-pane .doctor-review-form {
@@ -8257,7 +8260,7 @@ Doctor Details CSS
 	.doctor-review-form
 	.review-form
 	.form-control:focus {
-	border-color: #2AD396;
+	border-color: #2ad396;
 	background-color: transparent;
 }
 .doctor-details-tabs
@@ -8329,7 +8332,7 @@ Submit Review Area CSS
 	content: "";
 	left: 0;
 	bottom: 0;
-	border-bottom: 1px solid #2AD396;
+	border-bottom: 1px solid #2ad396;
 	height: 100%;
 	width: 100px;
 }
@@ -8357,7 +8360,7 @@ Submit Review Area CSS
 	font-weight: 400;
 }
 .submit-review-form form .form-group .form-control:focus {
-	border: 1px solid #2AD396;
+	border: 1px solid #2ad396;
 	background-color: transparent;
 }
 .submit-review-form form .form-group .form-control:focus::-moz-placeholder {
@@ -8379,7 +8382,7 @@ Submit Review Area CSS
 	width: 100%;
 	border-radius: 5px;
 	cursor: pointer;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 	transition: 0.5s;
 }
@@ -8394,7 +8397,7 @@ Submit Review Area CSS
 	font-size: 15px;
 }
 .submit-review-form form .form-check a {
-	color: #2AD396;
+	color: #2ad396;
 }
 
 /*================================================
@@ -8419,7 +8422,7 @@ Book Appointment Area CSS
 	content: "";
 	left: 0;
 	bottom: 0;
-	border-bottom: 1px solid #2AD396;
+	border-bottom: 1px solid #2ad396;
 	height: 100%;
 	width: 100px;
 }
@@ -8441,7 +8444,7 @@ Book Appointment Area CSS
 	width: 100%;
 }
 .book-appointment-form form .form-group .form-control:focus {
-	border-color: #2AD396;
+	border-color: #2ad396;
 	background-color: transparent;
 	outline: 0;
 }
@@ -8471,7 +8474,7 @@ Book Appointment Area CSS
 	margin-bottom: 25px;
 }
 .book-appointment-form form .nice-select:focus {
-	border-color: #2AD396;
+	border-color: #2ad396;
 	background-color: transparent;
 }
 .book-appointment-form form .nice-select .list {
@@ -8492,7 +8495,7 @@ Book Appointment Area CSS
 	font-size: 14px;
 }
 .book-appointment-form form .nice-select .list .option:hover {
-	background-color: #2AD396 !important;
+	background-color: #2ad396 !important;
 	color: #ffffff;
 }
 .book-appointment-form form .nice-select .list .option.selected {
@@ -8502,7 +8505,7 @@ Book Appointment Area CSS
 .book-appointment-form form .nice-select::after {
 	height: 8px;
 	width: 8px;
-	border-color: #2AD396;
+	border-color: #2ad396;
 	right: 15px;
 }
 .book-appointment-form form .banner-btn {
@@ -8522,7 +8525,7 @@ Book Appointment Area CSS
 	font-size: 15px;
 }
 .book-appointment-form form .form-check a {
-	color: #2AD396;
+	color: #2ad396;
 }
 
 .booking-summary {
@@ -8545,7 +8548,7 @@ Book Appointment Area CSS
 	width: 50px;
 	height: 1px;
 	bottom: -1px;
-	background: #2AD396;
+	background: #2ad396;
 }
 .booking-summary ul {
 	padding-left: 0;
@@ -8612,7 +8615,7 @@ Doctor Dashboard Area CSS
 	margin-bottom: 8px;
 }
 .dashboard-profile .profile-box .profile-designation span {
-	color: #2AD396;
+	color: #2ad396;
 }
 .dashboard-profile .dashboard-profile-info .info-list {
 	padding-left: 0;
@@ -8645,7 +8648,7 @@ Doctor Dashboard Area CSS
 	left: 0;
 	width: 100%;
 	height: 0%;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	transition: 0.5s;
 	top: 0;
 	z-index: -1;
@@ -8714,7 +8717,7 @@ Doctor Dashboard Area CSS
 }
 .single-stats-box:hover .icon i {
 	background-color: #ffffff;
-	color: #2AD396;
+	color: #2ad396;
 }
 .single-stats-box.bg-2 {
 	background: linear-gradient(
@@ -8766,8 +8769,8 @@ Doctor Dashboard Area CSS
 .doctors-appointment .title-box .btn-box .btn-one {
 	display: inline-block;
 	padding: 12px 35px;
-	background-color: #2AD396;
-	border: 1px solid #2AD396;
+	background-color: #2ad396;
+	border: 1px solid #2ad396;
 	color: #ffffff;
 	border-radius: 30px;
 	transition: 0.5s;
@@ -8784,15 +8787,15 @@ Doctor Dashboard Area CSS
 	display: inline-block;
 	padding: 12px 35px;
 	background-color: transparent;
-	border: 1px solid #2AD396;
-	color: #2AD396;
+	border: 1px solid #2ad396;
+	color: #2ad396;
 	border-radius: 30px;
 	transition: 0.5s;
 	font-weight: 500;
 	font-size: 14px;
 }
 .doctors-appointment .title-box .btn-box .btn-two:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 }
 .doctors-appointment .title-box .search-form {
@@ -8817,12 +8820,12 @@ Doctor Dashboard Area CSS
 	border-radius: 5px;
 }
 .doctors-appointment .title-box .search-form .search-field:focus {
-	border-color: #2AD396;
+	border-color: #2ad396;
 }
 .doctors-appointment .title-box .search-form button {
 	border: none;
 	background-color: #eeeeee;
-	color: #2AD396;
+	color: #2ad396;
 	height: 40px;
 	width: 40px;
 	position: absolute;
@@ -8843,7 +8846,7 @@ Doctor Dashboard Area CSS
 }
 .doctors-appointment .title-box .search-form button:hover,
 .doctors-appointment .title-box .search-form button:focus {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 }
 .doctors-appointment .doctors-table {
@@ -8933,7 +8936,7 @@ Doctor Dashboard Area CSS
 }
 .doctors-appointment .doctors-table tr td span {
 	font-size: 15px;
-	color: #2AD396;
+	color: #2ad396;
 	font-weight: 400;
 }
 .doctors-appointment .doctors-table tr td .view {
@@ -8947,14 +8950,14 @@ Doctor Dashboard Area CSS
 	transition: 0.5s;
 }
 .doctors-appointment .doctors-table tr td .view:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 }
 .doctors-appointment .doctors-table tr td .accept {
 	font-size: 14px;
 	font-weight: 500;
 	padding: 8px 25px;
-	background: #2AD396;
+	background: #2ad396;
 	color: #ffffff;
 	border-radius: 25px;
 	margin-right: 5px;
@@ -8974,7 +8977,7 @@ Doctor Dashboard Area CSS
 	transition: 0.5s;
 }
 .doctors-appointment .doctors-table tr td .cancel:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 }
 .doctors-appointment .doctors-table tr td.right {
@@ -9085,14 +9088,14 @@ Doctor Dashboard Area CSS
 }
 .doctors-appointment .patients-table tr td span {
 	font-size: 15px;
-	color: #2AD396;
+	color: #2ad396;
 	font-weight: 400;
 }
 .doctors-appointment .patients-table tr td .cancel {
 	font-size: 14px;
 	font-weight: 500;
 	padding: 8px 25px;
-	background: #2AD396;
+	background: #2ad396;
 	color: #ffffff;
 	border-radius: 25px;
 	transition: 0.5s;
@@ -9112,7 +9115,7 @@ Doctor Dashboard Area CSS
 	transition: 0.5s;
 }
 .doctors-appointment .patients-table tr td .edit:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 }
 .doctors-appointment .patients-table tr td.right {
@@ -9157,14 +9160,14 @@ Doctor Dashboard Area CSS
 }
 .doctors-appointment .invoices-table tr td span {
 	font-size: 15px;
-	color: #2AD396;
+	color: #2ad396;
 	font-weight: 400;
 }
 .doctors-appointment .invoices-table tr td .view {
 	font-size: 14px;
 	font-weight: 500;
 	padding: 8px 25px;
-	background: #2AD396;
+	background: #2ad396;
 	color: #ffffff;
 	border-radius: 25px;
 	transition: 0.5s;
@@ -9184,7 +9187,7 @@ Doctor Dashboard Area CSS
 	transition: 0.5s;
 }
 .doctors-appointment .invoices-table tr td .print:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 }
 
@@ -9250,7 +9253,7 @@ Appointments Area CSS
 	left: 0;
 	top: 50%;
 	transform: translateY(-50%);
-	color: #2AD396;
+	color: #2ad396;
 }
 .appointments-list .appointments-box .appointments-information .info-list li a {
 	color: #6b6b84;
@@ -9274,7 +9277,7 @@ Appointments Area CSS
 	padding: 10px 30px;
 	background: #edeaea;
 	border-radius: 25px;
-	color: #2AD396;
+	color: #2ad396;
 	transition: 0.5s;
 	margin-right: 10px;
 }
@@ -9290,7 +9293,7 @@ Appointments Area CSS
 	.appointments-information
 	.confirm-list
 	li:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 }
 
@@ -9353,8 +9356,8 @@ Reviews Area CSS
 	border-radius: 30px;
 }
 .reviews-list .reviews-box .reviews-content .reply-btn:hover {
-	background-color: #2AD396;
-	border: 1px solid #2AD396;
+	background-color: #2ad396;
+	border: 1px solid #2ad396;
 	color: #ffffff;
 }
 .reviews-list .reviews-box .reviews-content .rating {
@@ -9387,8 +9390,8 @@ Schedule Time Area CSS
 .schedule-time .title-box .btn-box .btn-one {
 	display: inline-block;
 	padding: 12px 35px;
-	background-color: #2AD396;
-	border: 1px solid #2AD396;
+	background-color: #2ad396;
+	border: 1px solid #2ad396;
 	color: #ffffff;
 	border-radius: 30px;
 	transition: 0.5s;
@@ -9405,15 +9408,15 @@ Schedule Time Area CSS
 	display: inline-block;
 	padding: 12px 35px;
 	background-color: transparent;
-	border: 1px solid #2AD396;
-	color: #2AD396;
+	border: 1px solid #2ad396;
+	color: #2ad396;
 	border-radius: 30px;
 	transition: 0.5s;
 	font-weight: 500;
 	font-size: 14px;
 }
 .schedule-time .title-box .btn-box .btn-two:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 }
 .schedule-time .title-box .search-form {
@@ -9438,12 +9441,12 @@ Schedule Time Area CSS
 	border-radius: 5px;
 }
 .schedule-time .title-box .search-form .search-field:focus {
-	border-color: #2AD396;
+	border-color: #2ad396;
 }
 .schedule-time .title-box .search-form button {
 	border: none;
 	background-color: #eeeeee;
-	color: #2AD396;
+	color: #2ad396;
 	height: 40px;
 	width: 40px;
 	position: absolute;
@@ -9464,7 +9467,7 @@ Schedule Time Area CSS
 }
 .schedule-time .title-box .search-form button:hover,
 .schedule-time .title-box .search-form button:focus {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 }
 .schedule-time .calendar-content {
@@ -9491,11 +9494,11 @@ Schedule Time Area CSS
 	border-radius: 30px;
 }
 .schedule-time .calendar-content .schedule-list li a:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 }
 .schedule-time .calendar-content .schedule-list li .color {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 }
 
@@ -9529,7 +9532,7 @@ Footer Area CSS
 	color: #202647;
 }
 .footer-area.bg-color .single-footer-widget .quick-links li a:hover {
-	color: #2AD396;
+	color: #2ad396;
 }
 .footer-area.bg-color .single-footer-widget .opening-hours li {
 	color: #202647;
@@ -9544,7 +9547,7 @@ Footer Area CSS
 	color: #202647;
 }
 .footer-area.bg-color .single-footer-widget .footer-contact-info li a:hover {
-	color: #2AD396;
+	color: #2ad396;
 }
 
 .single-footer-widget {
@@ -9575,7 +9578,7 @@ Footer Area CSS
 	height: 35px;
 	width: 35px;
 	line-height: 35px;
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 	font-size: 16px;
 	text-align: center;
@@ -9584,12 +9587,12 @@ Footer Area CSS
 }
 .single-footer-widget .footer-social li i:hover {
 	background-color: #ffffff;
-	color: #2AD396;
+	color: #2ad396;
 	transform: translateY(-2px);
 }
 .single-footer-widget h2 {
 	font-size: 25px;
-	color: #2AD396;
+	color: #2ad396;
 	font-weight: 500;
 	margin-bottom: 25px;
 }
@@ -9610,7 +9613,7 @@ Footer Area CSS
 	position: relative;
 }
 .single-footer-widget .quick-links li a:hover {
-	color: #2AD396;
+	color: #2ad396;
 }
 .single-footer-widget .quick-links li a:hover::before {
 	width: 100%;
@@ -9623,7 +9626,7 @@ Footer Area CSS
 	width: 0;
 	height: 1px;
 	transition: 0.5s;
-	background-color: #2AD396;
+	background-color: #2ad396;
 }
 .single-footer-widget .quick-links li:last-child {
 	margin-bottom: 0;
@@ -9665,7 +9668,7 @@ Footer Area CSS
 	left: 0;
 	top: 5px;
 	font-size: 25px;
-	color: #2AD396;
+	color: #2ad396;
 }
 .single-footer-widget .footer-contact-info li span {
 	display: block;
@@ -9682,7 +9685,7 @@ Footer Area CSS
 	font-size: 14px;
 }
 .single-footer-widget .footer-contact-info li a:hover {
-	color: #2AD396;
+	color: #2ad396;
 }
 .single-footer-widget .footer-contact-info li:last-child {
 	margin-bottom: 0;
@@ -9714,7 +9717,7 @@ Copy Right Area CSS
 .copyright-area .copyright-area-content p a {
 	display: inline-block;
 	font-weight: 600;
-	color: #2AD396;
+	color: #2ad396;
 }
 .copyright-area .copyright-area-content p a:hover {
 	color: #202647;
@@ -9758,7 +9761,7 @@ Go Top CSS
 	bottom: 20px;
 }
 .go-top:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff;
 	transition: 0.5s;
 	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -9787,7 +9790,7 @@ Buy Now Btn
 	animation-iteration-count: infinite;
 }
 .buy-now-btn:hover {
-	background-color: #2AD396;
+	background-color: #2ad396;
 	color: #ffffff !important;
 }
 
