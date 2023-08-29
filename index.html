@@ -39,17 +39,23 @@
 		<!-- Responsive CSS -->
 		<link rel="stylesheet" href="assets/css/responsive.css" />
 
-		<title>childdr - Specialist Doctors & Chambers HTML Template</title>
+		<title>ChildDr - Specialist Doctors</title>
 
 		<link rel="icon" type="image/png" href="assets/img/favicon.png" />
 	</head>
 
 	<body>
 		<!-- Start Preloader Area -->
-		<div class="preloader">
-			<div class="spinner"></div>
-		</div>
-		<!-- End Preloader Area -->
+        <div class="preloader-area">
+            <div class="spinner">
+                <div class="rect1"></div>
+                <div class="rect2"></div>
+                <div class="rect3"></div>
+                <div class="rect4"></div>
+                <div class="rect5"></div>
+            </div>
+        </div>
+        <!-- End Preloader Area -->
 
 		<!-- Chat with us -->
 		<link rel="stylesheet" href="./assets/css/chat-bot.css" />
@@ -57,7 +63,7 @@
 			<div class="whatsapp-chat-header" style="color: #fff">
 				<div class="whatsapp-chat-avatar">
 					<img
-						src="https://files.elfsight.com/storage/9274ed8b-a2e8-4cf8-a4cf-fad383377f2b/7b75090c-19a2-452b-9d6b-c2a51ad4916f.jpeg"
+						src="https://img1.wsimg.com/isteam/ip/d15ac042-6efa-4f93-b6c9-7b1a168d0c10/blob.png/:/rs=w:195,h:195,cg:true,m/cr=w:195,h:195/qt=q:95"
 						alt="CHILDDR Logo" />
 				</div>
 				<p>
@@ -122,7 +128,7 @@
 			<a class="close-chat" href="javascript:void">×</a>
 		</div>
 		<a class="blantershow-chat" href="javascript:void" title="Show Chat">
-			<svg width="20" viewBox="0 0 24 24">
+			<svg width="30" viewBox="0 0 24 24">
 				<defs />
 				<path
 					fill="#eceff1"
@@ -137,54 +143,6 @@
 			Chat with Us</a
 		>
 
-		<script src="/assets/js/jquery.min.js"></script>
-		<script>
-			$(document).on("click", "#send-it", function () {
-				var message = $("#chat-input").val();
-				var phoneNumber = $("#get-number").text();
-				if (message && phoneNumber) {
-					var url = "https://web.whatsapp.com/send";
-					if (
-						/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-							navigator.userAgent
-						)
-					) {
-						url = "whatsapp://send";
-					}
-					var whatsappUrl =
-						url +
-						"?phone=" +
-						phoneNumber +
-						"&text=" +
-						encodeURIComponent(message);
-					window.open(whatsappUrl, "_blank");
-				}
-			});
-
-			$(document).on("click", ".informasi", function () {
-				var phoneNumber = $(this).find(".my-number").text();
-				var chatName = $(this).find(".chat-nama").text();
-				var chatLabel = $(this).find(".chat-label").text();
-
-				$("#get-number").text(phoneNumber);
-				$("#get-nama").text(chatName);
-				$("#get-label").text(chatLabel);
-
-				$(".start-chat, .get-new").addClass("show").removeClass("hide");
-				$(".home-chat, .head-home")
-					.addClass("hide")
-					.removeClass("show");
-				$("#whatsapp-chat").addClass("show").removeClass("hide");
-			});
-
-			$(document).on("click", ".close-chat", function () {
-				$("#whatsapp-chat").addClass("hide").removeClass("show");
-			});
-
-			$(document).on("click", ".blantershow-chat", function () {
-				$("#whatsapp-chat").addClass("show").removeClass("hide");
-			});
-		</script>
 		<!-- end chat -->
 		<!-- 
 			socail icoon
@@ -222,7 +180,7 @@
 			.sticky-icon {
 				z-index: 9999;
 				position: fixed;
-				top: 15%;
+				top: 25%;
 				right: 0%;
 				width: 220px;
 				display: flex;
@@ -339,55 +297,53 @@
 		</style>
 		<!--End Sticky Icon-->
 
-		<!-- Start Main Banner Area -->
-		<div class="main-banner">
-			<div class="main-banner-item item-two">
-				<!-- Start Navbar Area -->
-				<div class="navbar-area">
-					<div class="main-responsive-nav">
-						<div class="container">
-							<div class="main-responsive-menu">
-								<div class="logo">
-									<a href="index.html">
-										<img
-											src="assets/img/logo.png"
-											class="black-logo"
-											alt="image" />
-										<img
-											src="assets/img/logo-2.png"
-											class="white-logo"
-											alt="image" />
-									</a>
-								</div>
-							</div>
+		<!-- Start Navbar Area -->
+		<div class="navbar-area relative-color">
+			<div class="main-responsive-nav">
+				<div class="container">
+					<div class="main-responsive-menu">
+						<div class="logo">
+							<a
+								href="index.html"
+								style="font-size: 2rem"
+								class="navbar-brand"
+								href="index.html">
+								CHILDDR
+							</a>
 						</div>
 					</div>
+				</div>
+			</div>
 
-					<div class="main-navbar">
-						<div class="navbar-inner">
-							<div class="container">
-								<nav
-									class="navbar navbar-expand-md navbar-light">
-									<a
-										style="font-size: 2rem"
-										class="navbar-brand"
-										href="index.html">
-										CHILDDR
-									</a>
+			<div class="main-navbar">
+				<div class="navbar-inner">
+					<div class="container">
+						<nav class="navbar navbar-expand-md navbar-light">
+							<a
+								style="font-size: 2rem"
+								class="navbar-brand"
+								href="index.html">
+								CHILDDR
+							</a>
 
-									<div
-										class="collapse navbar-collapse mean-menu"
-										id="navbarSupportedContent">
-										<ul class="navbar-nav m-auto">
+							<div
+								class="collapse navbar-collapse mean-menu"
+								id="navbarSupportedContent">
+								<ul class="navbar-nav m-auto">
+									<li class="nav-item">
+										<a href="#" class="nav-link"> Home </a>
+									</li>
+
+									<li class="nav-item">
+										<a href="#" class="nav-link">
+											Doctors
+											<i class="bx bx-chevron-down"></i>
+										</a>
+
+										<ul class="dropdown-menu">
 											<li class="nav-item">
 												<a href="#" class="nav-link">
-													Home
-												</a>
-											</li>
-
-											<li class="nav-item">
-												<a href="#" class="nav-link">
-													Doctors
+													Doctors Dashboard
 													<i
 														class="bx bx-chevron-down"></i>
 												</a>
@@ -395,260 +351,7 @@
 												<ul class="dropdown-menu">
 													<li class="nav-item">
 														<a
-															href="#"
-															class="nav-link">
-															Doctors Dashboard
-															<i
-																class="bx bx-chevron-down"></i>
-														</a>
-
-														<ul
-															class="dropdown-menu">
-															<li
-																class="nav-item">
-																<a
-																	href="doctors-dashboard.html"
-																	class="nav-link">
-																	Dashboard
-																</a>
-															</li>
-
-															<li
-																class="nav-item">
-																<a
-																	href="appointments.html"
-																	class="nav-link">
-																	Appointments
-																</a>
-															</li>
-
-															<li
-																class="nav-item">
-																<a
-																	href="patients.html"
-																	class="nav-link">
-																	Patients
-																</a>
-															</li>
-
-															<li
-																class="nav-item">
-																<a
-																	href="schedule-time.html"
-																	class="nav-link">
-																	Schedule
-																	Time
-																</a>
-															</li>
-
-															<li
-																class="nav-item">
-																<a
-																	href="invoices.html"
-																	class="nav-link">
-																	Invoices
-																</a>
-															</li>
-
-															<li
-																class="nav-item">
-																<a
-																	href="reviews.html"
-																	class="nav-link">
-																	Reviews
-																</a>
-															</li>
-
-															<li
-																class="nav-item">
-																<a
-																	href="change-password.html"
-																	class="nav-link">
-																	Change
-																	Password
-																</a>
-															</li>
-
-															<li
-																class="nav-item">
-																<a
-																	href="login.html"
-																	class="nav-link">
-																	Login
-																</a>
-															</li>
-														</ul>
-													</li>
-
-													<li class="nav-item">
-														<a
-															href="doctors.html"
-															class="nav-link">
-															Doctors
-														</a>
-													</li>
-
-													<li class="nav-item">
-														<a
-															href="doctors-details.html"
-															class="nav-link">
-															Doctors Details
-														</a>
-													</li>
-												</ul>
-											</li>
-
-											<li class="nav-item">
-												<a href="#" class="nav-link">
-													Pages
-													<i
-														class="bx bx-chevron-down"></i>
-												</a>
-
-												<ul class="dropdown-menu">
-													<li class="nav-item">
-														<a
-															href="about.html"
-															class="nav-link">
-															About
-														</a>
-													</li>
-
-													<li class="nav-item">
-														<a
-															href="pricing.html"
-															class="nav-link">
-															Pricing
-														</a>
-													</li>
-
-													<li class="nav-item">
-														<a
-															href="testimonials.html"
-															class="nav-link">
-															Testimonials
-														</a>
-													</li>
-
-													<li class="nav-item">
-														<a
-															href="gallery.html"
-															class="nav-link">
-															Gallery
-														</a>
-													</li>
-
-													<li class="nav-item">
-														<a
-															href="my-account.html"
-															class="nav-link">
-															My Account
-														</a>
-													</li>
-
-													<li class="nav-item">
-														<a
-															href="#"
-															class="nav-link">
-															Shop
-															<i
-																class="bx bx-chevron-down"></i>
-														</a>
-
-														<ul
-															class="dropdown-menu">
-															<li
-																class="nav-item">
-																<a
-																	href="shop.html"
-																	class="nav-link">
-																	Shop
-																</a>
-															</li>
-
-															<li
-																class="nav-item">
-																<a
-																	href="cart.html"
-																	class="nav-link">
-																	Cart
-																</a>
-															</li>
-
-															<li
-																class="nav-item">
-																<a
-																	href="checkout.html"
-																	class="nav-link">
-																	Checkout
-																</a>
-															</li>
-
-															<li
-																class="nav-item">
-																<a
-																	href="products-details.html"
-																	class="nav-link">
-																	Products
-																	Details
-																</a>
-															</li>
-														</ul>
-													</li>
-
-													<li class="nav-item">
-														<a
-															href="faq.html"
-															class="nav-link">
-															FAQ
-														</a>
-													</li>
-
-													<li class="nav-item">
-														<a
-															href="error-404.html"
-															class="nav-link">
-															Error Page
-														</a>
-													</li>
-
-													<li class="nav-item">
-														<a
-															href="terms-of-service.html"
-															class="nav-link">
-															Terms of Service
-														</a>
-													</li>
-
-													<li class="nav-item">
-														<a
-															href="privacy-policy.html"
-															class="nav-link">
-															Privacy Policy
-														</a>
-													</li>
-
-													<li class="nav-item">
-														<a
-															href="coming-soon.html"
-															class="nav-link">
-															Coming Soon
-														</a>
-													</li>
-												</ul>
-											</li>
-
-											<li class="nav-item">
-												<a href="#" class="nav-link">
-													Patient
-													<i
-														class="bx bx-chevron-down"></i>
-												</a>
-
-												<ul class="dropdown-menu">
-													<li class="nav-item">
-														<a
-															href="patient-dashboard.html"
+															href="doctors-dashboard.html"
 															class="nav-link">
 															Dashboard
 														</a>
@@ -656,85 +359,57 @@
 
 													<li class="nav-item">
 														<a
-															href="favorite-doctors.html"
+															href="appointments.html"
 															class="nav-link">
-															Favorite Doctors
+															Appointments
 														</a>
 													</li>
 
 													<li class="nav-item">
 														<a
-															href="submit-review.html"
+															href="patients.html"
 															class="nav-link">
-															Submit Review
+															Patients
 														</a>
 													</li>
 
 													<li class="nav-item">
 														<a
-															href="book-appointment.html"
+															href="schedule-time.html"
 															class="nav-link">
-															Book Appointment
+															Schedule Time
 														</a>
 													</li>
 
 													<li class="nav-item">
 														<a
-															href="register.html"
+															href="invoices.html"
 															class="nav-link">
-															Register
-														</a>
-													</li>
-												</ul>
-											</li>
-
-											<li class="nav-item">
-												<a href="#" class="nav-link">
-													Services
-													<i
-														class="bx bx-chevron-down"></i>
-												</a>
-
-												<ul class="dropdown-menu">
-													<li class="nav-item">
-														<a
-															href="services.html"
-															class="nav-link">
-															Services
+															Invoices
 														</a>
 													</li>
 
 													<li class="nav-item">
 														<a
-															href="services-details.html"
+															href="reviews.html"
 															class="nav-link">
-															Services Details
-														</a>
-													</li>
-												</ul>
-											</li>
-
-											<li class="nav-item">
-												<a href="#" class="nav-link">
-													Blog
-													<i
-														class="bx bx-chevron-down"></i>
-												</a>
-
-												<ul class="dropdown-menu">
-													<li class="nav-item">
-														<a
-															href="blog.html"
-															class="nav-link">
-															Blog
+															Reviews
 														</a>
 													</li>
 
 													<li class="nav-item">
 														<a
-															href="blog-details.html"
+															href="change-password.html"
 															class="nav-link">
-															Blog Details
+															Change Password
+														</a>
+													</li>
+
+													<li class="nav-item">
+														<a
+															href="login.html"
+															class="nav-link">
+															Login
 														</a>
 													</li>
 												</ul>
@@ -742,56 +417,312 @@
 
 											<li class="nav-item">
 												<a
-													href="contact.html"
+													href="doctors.html"
 													class="nav-link">
-													Contact
+													Doctors
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a
+													href="doctors-details.html"
+													class="nav-link">
+													Doctors Details
 												</a>
 											</li>
 										</ul>
+									</li>
 
-										<div
-											class="others-options d-flex align-items-center">
-											<div class="option-item">
+									<li class="nav-item">
+										<a href="#" class="nav-link">
+											Pages
+											<i class="bx bx-chevron-down"></i>
+										</a>
+
+										<ul class="dropdown-menu">
+											<li class="nav-item">
 												<a
-													href="contact.html"
-													class="default-btn"
-													>Contact Us</a
-												>
-											</div>
-										</div>
+													href="about.html"
+													class="nav-link">
+													About
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a
+													href="pricing.html"
+													class="nav-link">
+													Pricing
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a
+													href="testimonials.html"
+													class="nav-link">
+													Testimonials
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a
+													href="gallery.html"
+													class="nav-link">
+													Gallery
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a
+													href="my-account.html"
+													class="nav-link">
+													My Account
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a href="#" class="nav-link">
+													Shop
+													<i
+														class="bx bx-chevron-down"></i>
+												</a>
+
+												<ul class="dropdown-menu">
+													<li class="nav-item">
+														<a
+															href="shop.html"
+															class="nav-link">
+															Shop
+														</a>
+													</li>
+
+													<li class="nav-item">
+														<a
+															href="cart.html"
+															class="nav-link">
+															Cart
+														</a>
+													</li>
+
+													<li class="nav-item">
+														<a
+															href="checkout.html"
+															class="nav-link">
+															Checkout
+														</a>
+													</li>
+
+													<li class="nav-item">
+														<a
+															href="products-details.html"
+															class="nav-link">
+															Products Details
+														</a>
+													</li>
+												</ul>
+											</li>
+
+											<li class="nav-item">
+												<a
+													href="faq.html"
+													class="nav-link">
+													FAQ
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a
+													href="error-404.html"
+													class="nav-link">
+													Error Page
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a
+													href="terms-of-service.html"
+													class="nav-link">
+													Terms of Service
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a
+													href="privacy-policy.html"
+													class="nav-link">
+													Privacy Policy
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a
+													href="coming-soon.html"
+													class="nav-link">
+													Coming Soon
+												</a>
+											</li>
+										</ul>
+									</li>
+
+									<li class="nav-item">
+										<a href="#" class="nav-link">
+											Patient
+											<i class="bx bx-chevron-down"></i>
+										</a>
+
+										<ul class="dropdown-menu">
+											<li class="nav-item">
+												<a
+													href="patient-dashboard.html"
+													class="nav-link">
+													Dashboard
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a
+													href="favorite-doctors.html"
+													class="nav-link">
+													Favorite Doctors
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a
+													href="submit-review.html"
+													class="nav-link">
+													Submit Review
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a
+													href="book-appointment.html"
+													class="nav-link">
+													Book Appointment
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a
+													href="register.html"
+													class="nav-link">
+													Register
+												</a>
+											</li>
+										</ul>
+									</li>
+
+									<li class="nav-item">
+										<a href="#" class="nav-link">
+											Services
+											<i class="bx bx-chevron-down"></i>
+										</a>
+
+										<ul class="dropdown-menu">
+											<li class="nav-item">
+												<a
+													href="services.html"
+													class="nav-link">
+													Services
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a
+													href="services-details.html"
+													class="nav-link">
+													Services Details
+												</a>
+											</li>
+										</ul>
+									</li>
+
+									<li class="nav-item">
+										<a href="#" class="nav-link">
+											Blog
+											<i class="bx bx-chevron-down"></i>
+										</a>
+
+										<ul class="dropdown-menu">
+											<li class="nav-item">
+												<a
+													href="blog.html"
+													class="nav-link">
+													Blog
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a
+													href="blog-details.html"
+													class="nav-link">
+													Blog Details
+												</a>
+											</li>
+										</ul>
+									</li>
+
+									<li class="nav-item">
+										<a href="contact.html" class="nav-link">
+											Contact
+										</a>
+									</li>
+								</ul>
+								<style>
+									.call-icon {
+										margin: 2px;
+										text-decoration: none;
+										padding: 10px;
+										font-size: 22px;
+									}
+								</style>
+								<div
+									class="others-options d-flex align-items-center">
+									<div class="call-icon option-item">
+										<i class="fas fa-phone fa-rotate-90"></i>
 									</div>
-								</nav>
+									<div class="icon-box icon-box-body">
+										<p class="title">Consult with doctor</p>
+										(555)-085-2750
+									</div>
+								</div>
 							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+
+			<div class="others-option-for-responsive">
+				<div class="container">
+					<div class="dot-menu">
+						<div class="inner">
+							<div class="circle circle-one"></div>
+							<div class="circle circle-two"></div>
+							<div class="circle circle-three"></div>
 						</div>
 					</div>
 
-					<div class="others-option-for-responsive">
-						<div class="container">
-							<div class="dot-menu">
-								<div class="inner">
-									<div class="circle circle-one"></div>
-									<div class="circle circle-two"></div>
-									<div class="circle circle-three"></div>
-								</div>
-							</div>
-
-							<div class="container">
-								<div class="option-inner">
-									<div
-										class="others-options d-flex align-items-center">
-										<div class="option-item">
-											<a href="#" class="default-btn"
-												>
-												Consult with doctor</a
-											>
-										</div>
-									</div>
+					<div class="container">
+						<div class="option-inner">
+							<div
+								class="others-options d-flex align-items-center">
+								<div class="option-item">
+									<a href="#" class="default-btn">
+										Consult with doctor</a
+									>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<!-- End Navbar Area -->
+			</div>
+		</div>
+		<!-- End Navbar Area -->
+		
+		<!-- Start Main Banner Area -->
+		<div class="main-banner">
+			<div class="main-banner-item item-two">
 				<div class="d-table">
 					<div class="d-table-cell">
 						<div class="container" style="z-index: 2">
@@ -809,41 +740,45 @@
 												Nearest You
 											</p>
 										</div>
-										<div class="row">
-											<div class="mt-3 col-md-9">
-												<form>
+										<div class="main-banner-search-form">
+											<form>
+												<div class="row">
 													<div
-														class="row justify-content-center">
-														<div
-															class="col-lg-6 col-md-8">
-															<div
-																class="doctor-btn">
-																<!-- Add d-flex and justify-content-center classes -->
-																<a
-																	href="doctors-details.html"
-																	class="default-btn"
-																	>Book
-																	Appointment</a
-																>
-															</div>
-														</div>
-														<div
-															class="col-lg-6 col-md-4">
-															<div
-																class="doctor-btn">
-																<!-- Add d-flex and justify-content-center classes -->
-																<a
-																	href="doctors-details.html"
-																	class="default-btn"
-																	>Contact
-																	Us</a
-																>
-															</div>
+														class="col-lg-5 col-md-6">
+														<div class="form-group">
+															<label
+																><i
+																	class="flaticon-pin"></i
+															></label>
+															<input
+																type="button"
+																value="Book Appointment"
+																style="
+
+																	background-color: #2AD396;
+																"
+																class="form-control btn default-btn" />
 														</div>
 													</div>
-												</form>
-											</div>
-											<div class="col-md-3"></div>
+
+													<div
+														class="doctor-btn col-lg-7 col-md-6">
+														<div class="form-group">
+															<label
+																><i
+																	class="flaticon-doctor-2"></i
+															></label>
+															<input
+																type="button"
+																value="Contact Us"
+																class="form-control btn default-btn"
+																style="
+																	background-color: #2AD396;
+																" />
+														</div>
+													</div>
+												</div>
+											</form>
 										</div>
 									</div>
 								</div>
@@ -1018,54 +953,10 @@
 			</div>
 		</section>
 		<!-- End Categories Area -->
-		<section class="overview-area pb-100">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-lg-6">
-						<div class="overview-content">
-							<h3>Emergency? For any Help Contact Us Now</h3>
-							<div class="bar"></div>
-							<p>
-								At vero eos et accusamus et iusto odio
-								dignissimos ducimus qui blanditiis praesentium
-								voluptatum deleniti atque corrupti quos dolores
-								et quas molestias excepturi sint occaecati
-								cupiditate non provident, similique sunt in
-								culpa qui officia deserunt mollitia animi, id
-								est laborum et dolorum fuga. Et harum quidem
-								rerum facilis est et expedita distinctio. Nam
-								libero tempore, cum soluta nobis est eligendi
-								optio cumque nihil impedit quo minus id quod
-								maxime placeat facere possimus, omnis voluptas
-								assumenda est, omnis dolor repellendus.
-							</p>
-
-							<div class="overview-btn">
-								<a href="#" class="default-btn">Contact Us</a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-6">
-						<div class="overview-image">
-							<img
-								src="assets/img/overview/overview-1.png"
-								alt="image" />
-
-							<a
-								href="https://www.youtube.com/watch?v=Buhosl-jJGA"
-								class="video-btn popup-youtube">
-								<i class="flaticon-play"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
 
 		<!-- Start Doctor Area -->
 		<section class="doctor-area pb-70">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="doctor-inner-box">
 					<div class="row align-items-center">
 						<div class="col-lg-9 col-md-12">
@@ -1511,7 +1402,52 @@
 			</div>
 		</section>
 		<!-- End Healthcare Area -->
+		<!--  -->
+		<section class="overview-area ptb-100">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<div class="overview-content">
+							<h3>Emergency? For any Help Contact Us Now</h3>
+							<div class="bar"></div>
+							<p>
+								At vero eos et accusamus et iusto odio
+								dignissimos ducimus qui blanditiis praesentium
+								voluptatum deleniti atque corrupti quos dolores
+								et quas molestias excepturi sint occaecati
+								cupiditate non provident, similique sunt in
+								culpa qui officia deserunt mollitia animi, id
+								est laborum et dolorum fuga. Et harum quidem
+								rerum facilis est et expedita distinctio. Nam
+								libero tempore, cum soluta nobis est eligendi
+								optio cumque nihil impedit quo minus id quod
+								maxime placeat facere possimus, omnis voluptas
+								assumenda est, omnis dolor repellendus.
+							</p>
 
+							<div class="overview-btn">
+								<a href="#" class="default-btn">Contact Us</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6">
+						<div class="overview-image">
+							<img
+								src="assets/img/overview/overview-1.png"
+								alt="image" />
+
+							<a
+								href="https://youtu.be/rOA5XoDfLQY?si=EVcWTTZZWl3PSvC4"
+								class="video-btn popup-youtube">
+								<i class="flaticon-play"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--  -->
 		<!-- Start Queries Area -->
 		<section class="queries-area ptb-100">
 			<div class="container">
@@ -2305,6 +2241,53 @@
 		<!-- Jquery Slim JS -->
 		<script src="assets/js/jquery.min.js"></script>
 		<!-- Bootstrap JS -->
+		<script>
+			$(document).on("click", "#send-it", function () {
+				var message = $("#chat-input").val();
+				var phoneNumber = $("#get-number").text();
+				if (message && phoneNumber) {
+					var url = "https://web.whatsapp.com/send";
+					if (
+						/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+							navigator.userAgent
+						)
+					) {
+						url = "whatsapp://send";
+					}
+					var whatsappUrl =
+						url +
+						"?phone=" +
+						phoneNumber +
+						"&text=" +
+						encodeURIComponent(message);
+					window.open(whatsappUrl, "_blank");
+				}
+			});
+
+			$(document).on("click", ".informasi", function () {
+				var phoneNumber = $(this).find(".my-number").text();
+				var chatName = $(this).find(".chat-nama").text();
+				var chatLabel = $(this).find(".chat-label").text();
+
+				$("#get-number").text(phoneNumber);
+				$("#get-nama").text(chatName);
+				$("#get-label").text(chatLabel);
+
+				$(".start-chat, .get-new").addClass("show").removeClass("hide");
+				$(".home-chat, .head-home")
+					.addClass("hide")
+					.removeClass("show");
+				$("#whatsapp-chat").addClass("show").removeClass("hide");
+			});
+
+			$(document).on("click", ".close-chat", function () {
+				$("#whatsapp-chat").addClass("hide").removeClass("show");
+			});
+
+			$(document).on("click", ".blantershow-chat", function () {
+				$("#whatsapp-chat").addClass("show").removeClass("hide");
+			});
+		</script>
 		<script src="assets/js/bootstrap.bundle.min.js"></script>
 		<!-- Meanmenu JS -->
 		<script src="assets/js/jquery.meanmenu.js"></script>

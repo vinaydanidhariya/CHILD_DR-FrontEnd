@@ -17,6 +17,7 @@
 
 a.blantershow-chat {
     /*   background: #009688; */
+    background: #009688;
     background: #fff;
     color: #404040;
     position: fixed;
@@ -26,8 +27,8 @@ a.blantershow-chat {
     z-index: 98;
     bottom: 25px;
     right: 30px;
-    font-size: 15px;
-    padding: 10px 20px;
+    font-size: 20px;
+    padding: 15px 20px;
     border-radius: 30px;
     box-shadow: 0 1px 15px rgba(32, 33, 36, 0.28);
 }
