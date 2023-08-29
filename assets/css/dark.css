@@ -4,8 +4,8 @@ Default CSS
 .switch-box {
   position: fixed;
   z-index: 1;
-  left: 50px;
-  top: 50%;
+  left: 80%;
+  top: 20%;
   transform: translateY(-50%);
 }
 .switch-box .switch {
