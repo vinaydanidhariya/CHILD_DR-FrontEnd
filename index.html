@@ -46,16 +46,16 @@
 
 	<body>
 		<!-- Start Preloader Area -->
-        <div class="preloader-area">
-            <div class="spinner">
-                <div class="rect1"></div>
-                <div class="rect2"></div>
-                <div class="rect3"></div>
-                <div class="rect4"></div>
-                <div class="rect5"></div>
-            </div>
-        </div>
-        <!-- End Preloader Area -->
+		<div class="preloader-area">
+			<div class="spinner">
+				<div class="rect1"></div>
+				<div class="rect2"></div>
+				<div class="rect3"></div>
+				<div class="rect4"></div>
+				<div class="rect5"></div>
+			</div>
+		</div>
+		<!-- End Preloader Area -->
 
 		<!-- Chat with us -->
 		<link rel="stylesheet" href="./assets/css/chat-bot.css" />
@@ -298,7 +298,7 @@
 		<!--End Sticky Icon-->
 
 		<!-- Start Navbar Area -->
-		<div class="navbar-area relative-color">
+		<div class="navbar-area">
 			<div class="main-responsive-nav">
 				<div class="container">
 					<div class="main-responsive-menu">
@@ -318,9 +318,13 @@
 			<div class="main-navbar">
 				<div class="navbar-inner">
 					<div class="container">
-						<nav class="navbar navbar-expand-md navbar-light">
+						<nav class="navbar navbar-expand-md">
 							<a
-								style="font-size: 2rem"
+								style="
+									color: #2ad396;
+									font-size: 2rem;
+									font-weight: 900;
+								"
 								class="navbar-brand"
 								href="index.html">
 								CHILDDR
@@ -668,25 +672,47 @@
 											Contact
 										</a>
 									</li>
+									<li class="nav-item">
+										<div class="nav-link mt-2 switch-box1">
+											<label id="switch" class="switch"
+												><input
+													type="checkbox"
+													onchange="toggleTheme()"
+													id="slider" /><span
+													class="slider round"></span
+											></label>
+										</div>
+									</li>
 								</ul>
 								<style>
 									.call-icon {
-										margin: 2px;
+										margin: 10px;
 										text-decoration: none;
 										padding: 10px;
 										font-size: 22px;
 									}
 								</style>
-								<div
-									class="others-options d-flex align-items-center">
-									<div class="call-icon option-item">
-										<i class="fas fa-phone fa-rotate-90"></i>
+								<a href="">
+									<div
+										class="others-options d-flex align-items-center">
+										<div class="call-icon option-item">
+											<i
+												class="fas fa-phone fa-rotate-90"></i>
+										</div>
+										<div class="icon-box icon-box-body">
+											<span
+												class="title"
+												style="
+													color: #2ad396;
+													font-size: 1.3rem;
+													font-weight: 500;
+												">
+												Consult With Doctor
+												<p>(555)-085-2750</p>
+											</span>
+										</div>
 									</div>
-									<div class="icon-box icon-box-body">
-										<p class="title">Consult with doctor</p>
-										(555)-085-2750
-									</div>
-								</div>
+								</a>
 							</div>
 						</nav>
 					</div>
@@ -719,7 +745,7 @@
 			</div>
 		</div>
 		<!-- End Navbar Area -->
-		
+
 		<!-- Start Main Banner Area -->
 		<div class="main-banner">
 			<div class="main-banner-item item-two">
@@ -731,8 +757,10 @@
 									<div class="main-banner-inner">
 										<div class="main-banner-content">
 											<h1>
-												We Always Provide Health
-												Solutions For Your Child
+												WE SPECIALIZE IN PAEDIATRIC CARE
+												<br />
+												A Safe Care For Your Children’s
+												Health
 											</h1>
 											<p>
 												Discover The Best Doctors,
@@ -748,14 +776,15 @@
 														<div class="form-group">
 															<label
 																><i
-																	class="flaticon-pin"></i
+																	class="flaticon-doctor-2"></i
 															></label>
 															<input
 																type="button"
-																value="Book Appointment"
+																value="Contact Us"
 																style="
-
-																	background-color: #2AD396;
+																	color: #fff;
+																	font-weight: 900;
+																	background-color: #2ad396;
 																"
 																class="form-control btn default-btn" />
 														</div>
@@ -766,14 +795,16 @@
 														<div class="form-group">
 															<label
 																><i
-																	class="flaticon-doctor-2"></i
+																	class="flaticon-calendar"></i
 															></label>
 															<input
 																type="button"
-																value="Contact Us"
+																value="Book Appointment"
 																class="form-control btn default-btn"
 																style="
-																	background-color: #2AD396;
+																	color: #fff;
+																	font-weight: 900;
+																	background-color: #2ad396;
 																" />
 														</div>
 													</div>
@@ -786,7 +817,6 @@
 								<div class="col-lg-6">
 									<div class="main-banner-image">
 										<img
-											style="width: 60vh"
 											src="assets/img/main-banner/main-doctor.png"
 											alt="image" />
 
@@ -953,7 +983,91 @@
 			</div>
 		</section>
 		<!-- End Categories Area -->
+		<!-- Start About Area -->
+		<section class="about-area pb-100">
+			<div class="container-fluid">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<div class="about-image">
+							<img
+								src="assets/img/about/about-1.jpg"
+								alt="image" />
+							<img
+								src="assets/img/about/about-2.jpg"
+								alt="image" />
 
+							<div class="about-shape">
+								<div class="shape-1">
+									<img
+										src="assets/img/about/about-shape-1.png"
+										alt="image" />
+								</div>
+								<div class="shape-2">
+									<img
+										src="assets/img/about/about-shape-2.png"
+										alt="image" />
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6">
+						<div class="about-content">
+							<h3>
+								We are Trusted The Best Certificate Healthcare
+								Specialist
+							</h3>
+							<div class="bar"></div>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur
+								adipiscing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam, quis nostrud exercitation
+								ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in
+								reprehenderit in voluptate velit esse cillum
+								dolore eu fugiat nulla pariatur.
+							</p>
+
+							<ul class="about-list">
+								<li>
+									<i class="flaticon-checked"></i>
+									A Good Environment For Work
+								</li>
+
+								<li>
+									<i class="flaticon-checked"></i>
+									Digital Laboratory
+								</li>
+
+								<li>
+									<i class="flaticon-checked"></i>
+									Emergency Services
+								</li>
+
+								<li>
+									<i class="flaticon-checked"></i>
+									Professional Doctors
+								</li>
+
+								<li>
+									<i class="flaticon-checked"></i>
+									Scientific skills For Getting A Better
+									Result
+								</li>
+							</ul>
+
+							<div class="about-btn">
+								<a href="about.html" class="default-btn"
+									>More About Us</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End About Area -->
 		<!-- Start Doctor Area -->
 		<section class="doctor-area pb-70">
 			<div class="container-fluid">
@@ -2102,7 +2216,14 @@
 				<div class="row">
 					<div class="col-lg-3 col-sm-6">
 						<div class="single-footer-widget">
-							<a href="index.html" style="font-size: 2rem">
+							<a
+								style="
+									color: #2ad396;
+									font-size: 2rem;
+									font-weight: 500;
+								"
+								class="navbar-brand"
+								href="index.html">
 								CHILDDR
 							</a>
 							<p>

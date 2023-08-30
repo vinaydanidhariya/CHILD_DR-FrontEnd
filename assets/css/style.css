@@ -266,7 +266,6 @@ Preloader Area CSS
     top: 50%;
     left: 50%;
     margin-top: -70px;
-    margin-left: -65px;
 }
 .preloader-area .spinner > div {
     background-color: #007aff;
@@ -535,7 +534,7 @@ Top Bar Area CSS
 Navbar Area CSS
 =================================================*/
 .navbar-inner {
-	background: transparent;
+	background: #fff;
 }
 
 .main-responsive-nav {
@@ -543,7 +542,7 @@ Navbar Area CSS
 }
 
 .main-navbar {
-	padding: 10px 0;
+	padding: 0 0;
 }
 .main-navbar .navbar {
 	transition: 0.5s;
@@ -561,7 +560,7 @@ Navbar Area CSS
 	margin-right: 15px;
 }
 .main-navbar .navbar .navbar-nav .nav-item a {
-	color: #ffffff;
+	color: #000000;
 	font-size: 16px;
 	font-weight: 500;
 	padding-left: 0;
@@ -2189,10 +2188,9 @@ Main Banner Area CSS
 .main-banner-item.item-two {
 	background-image: url(../../assets/img/main-banner/banner-bg-2.jpg);
 	height: 100vh;
-	padding-top: 15px;
 }
 .main-banner-item.item-two .container-fluid {
-	max-width: 1920px;
+	max-width: 100vh;
 	margin: auto;
 }
 .main-banner-item.item-two::before {
