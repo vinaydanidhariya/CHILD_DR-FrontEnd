@@ -742,25 +742,63 @@
 												Nearest You
 											</p>
 										</div>
-										<div class="main-banner-search-form">
-											<form>
+										<style>
+											
+											/* GENERAL BUTTON STYLING */
+											button,
+											button::after {
+												-webkit-transition: all 0.3s;
+												-moz-transition: all 0.3s;
+												-o-transition: all 0.3s;
+												transition: all 0.3s;
+											}
+
+											button::before,
+											button::after {
+												background: #fff;
+												content: "";
+												position: absolute;
+												z-index: -1;
+											}
+
+											button:hover {
+												color: #2ecc71;
+											}
+
+
+											/* BUTTON 3 */
+											.btn-3::after {
+												height: 0;
+												left: 50%;
+												top: 50%;
+												width: 0;
+											}
+
+											.btn-3:hover:after {
+												height: 100%;
+												left: 0;
+												top: 0;
+												width: 100%;
+											}
+										</style>
+										<div
+											class="main-banner-search-form queries-form-banner">
+											<form class="form">
 												<div class="row">
 													<div
 														class="col-lg-5 col-md-6">
-														<div class="form-group">
+														<div
+															class="form-group green-btn">
 															<label
+																style="
+																	color: #fff;
+																"
 																><i
 																	class="flaticon-doctor-2"></i
 															></label>
-															<input
-																type="button"
-																value="Contact Us"
-																style="
-																	color: #fff;
-																	font-weight: 900;
-																	background-color: #2ad396;
-																"
-																class="form-control btn default-btn" />
+															<button type="button"
+															class="form-control button default-btn" 
+															value="Contact Us">Contact Us</button>
 														</div>
 													</div>
 
@@ -776,9 +814,12 @@
 																value="Book Appointment"
 																class="form-control btn default-btn"
 																style="
-																	color: #fff;
+																	color: #2ad396;
 																	font-weight: 900;
-																	background-color: #2ad396;
+																	border: 2px
+																		solid
+																		#2ad396;
+																	background-color: transparent;
 																" />
 														</div>
 													</div>
@@ -958,27 +999,20 @@
 		</section>
 		<!-- End Categories Area -->
 		<!-- Start About Area -->
-		<section class="about-area pb-100">
+		<section class="about-area">
 			<div class="container-fluid">
 				<div class="row align-items-center">
 					<div class="col-lg-6">
 						<div class="about-image">
 							<img
-								src="assets/img/about/about-1.jpg"
-								alt="image" />
-							<img
-								src="assets/img/about/about-2.jpg"
+								src="assets/img/female_doctor.jpg"
+								width="60%"
 								alt="image" />
 
 							<div class="about-shape">
 								<div class="shape-1">
 									<img
 										src="assets/img/about/about-shape-1.png"
-										alt="image" />
-								</div>
-								<div class="shape-2">
-									<img
-										src="assets/img/about/about-shape-2.png"
 										alt="image" />
 								</div>
 							</div>
