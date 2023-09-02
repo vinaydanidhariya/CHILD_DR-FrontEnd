@@ -2214,8 +2214,17 @@ Main Banner Area CSS
 	max-width: unset;
 }
 .main-banner-item.item-two .main-banner-search-form form .form-group label {
+	color: #ffffff;
+}
+.main-banner-item.item-two
+	.main-banner-search-form
+	form
+	.form-group:hover
+	label
+	i {
 	color: #2ad396;
 }
+
 .main-banner-item.item-two .main-banner-search-form form .green-btn {
 	color: #ffffff;
 }
@@ -2363,15 +2372,15 @@ Main Banner Area CSS
 }
 .main-banner-search-form form button {
 	display: block;
-    padding: 10px 10px 10px 45px;
-    width: 100%;
-    border: none;
-    background-color: #ffffff;
-    border-right: 1px solid #eeeeee;
-    height: 55px;
-    border-radius: 10px;
-    color: #202647;
-    font-size: 15px;
+	padding: 10px 10px 10px 45px;
+	width: 100%;
+	border: none;
+	background-color: #ffffff;
+	border-right: 1px solid #eeeeee;
+	height: 55px;
+	border-radius: 10px;
+	color: #202647;
+	font-size: 15px;
 }
 .main-banner-search-form form button i {
 	position: absolute;

@@ -188,16 +188,16 @@ Default CSS
 .theme-dark h6 a:hover {
 	color: #2ad396 !important;
 }
- .main-navbar {
+.main-navbar {
 	background-color: #0e0e0e !important;
 }
 .theme-dark .navbar-inner {
-    background: #000000;
+	background: #000000;
 }
-.theme-dark .call-icon{
+.theme-dark .call-icon {
 	color: #2ad396 !important;
 }
-.theme-dark .box-icon{
+.theme-dark .box-icon {
 	color: #2ad396 !important;
 }
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item a {
@@ -812,7 +812,25 @@ Default CSS
 }
 .theme-dark .main-banner-search-form form .form-group .form-control {
 	background-color: #000000;
+	border: 1px solid #2ad396;
+	color: #ffffff;
+}
+.theme-dark
+	.main-banner-search-form
+	form
+	.form-group
+	.form-control
+	.contact-us-btn {
+	background-color: #2ad396;
 	border-right: 1px solid #000000;
+	color: #ffffff;
+}
+.theme-dark .main-banner-search-form form .form-group .form-control:hover {
+	background-color: #2ad396;
+	border-right: 1px solid #000000;
+	color: #ffffff;
+}
+.theme-dark .doctor-btn:hover .icon {
 	color: #ffffff;
 }
 .theme-dark

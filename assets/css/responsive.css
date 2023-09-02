@@ -172,12 +172,19 @@
     font-size: 20px;
   }
   .about-shape .shape-1 {
-    display: none;
+    /* display: none; */
+    padding-top: 5%;
+    width: 60%;
   }
   .about-shape .shape-2 {
     display: none;
   }
   .about-image {
+    width: 23rem;
+    padding-right: 0;
+    padding-bottom: 3rem;
+  }
+  .about-image image{
     padding-right: 0;
   }
   .about-content {
