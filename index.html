@@ -127,7 +127,11 @@
 			<div id="get-number"></div>
 			<a class="close-chat" href="javascript:void">×</a>
 		</div>
-		<a class="blantershow-chat" href="javascript:void" title="Show Chat">
+		<a
+			class="blantershow-chat"
+			href="https://wa.me/15550852750?text=Hello"
+			target="_blank"
+			title="Show Chat">
 			<svg width="30" viewBox="0 0 24 24">
 				<defs />
 				<path
@@ -147,8 +151,12 @@
 		<!-- 
 			socail icoon
 		-->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
 			integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
 			crossorigin="anonymous" />
 		<style>
@@ -162,7 +170,7 @@
 				flex-direction: column;
 				align-items: flex-end; /* Align the icons to the right */
 			}
-	
+
 			.sticky-icon a {
 				border-radius: 50px 0 0 50px;
 				text-align: left;
@@ -176,41 +184,41 @@
 				display: flex;
 				align-items: center; /* Align text and icon vertically */
 			}
-	
+
 			.sticky-icon a:hover {
 				color: #fff;
 				transform: translateX(0);
 			}
-	
+
 			.sticky-icon a:hover i {
 				transform: rotate(360deg);
 			}
-	
+
 			.Facebook {
 				background-color: #2c80d3;
 				color: #fff;
 			}
-	
+
 			.Youtube {
 				background-color: #fa0910;
 				color: #fff;
 			}
-	
+
 			.Twitter {
 				background-color: #53c5ff;
 				color: #fff;
 			}
-	
+
 			.Instagram {
 				background-color: #fd1d1d;
 				color: #fff;
 			}
-	
+
 			.Google {
 				background-color: #d34836;
 				color: #fff;
 			}
-	
+
 			.sticky-icon a i {
 				background-color: #fff;
 				height: 40px;
@@ -221,32 +229,32 @@
 				border-radius: 50%;
 				transition: all 0.5s;
 			}
-	
+
 			.sticky-icon a i.fa-facebook-f {
 				background-color: #fff;
 				color: #2c80d3;
 			}
-	
+
 			.sticky-icon a i.fa-google-plus-g {
 				background-color: #fff;
 				color: #d34836;
 			}
-	
+
 			.sticky-icon a i.fa-instagram {
 				background-color: #fff;
 				color: #fd1d1d;
 			}
-	
+
 			.sticky-icon a i.fa-youtube {
 				background-color: #fff;
 				color: #fa0910;
 			}
-	
+
 			.sticky-icon a i.fa-twitter {
 				background-color: #fff;
 				color: #53c5ff;
 			}
-	
+
 			#myBtn {
 				height: 50px;
 				display: none;
@@ -264,17 +272,15 @@
 				cursor: pointer;
 				border-radius: 50%;
 			}
-	
+
 			.fa-arrow-circle-up {
 				font-size: 30px;
 			}
-	
+
 			#myBtn:hover {
 				background-color: #555;
 			}
 		</style>
-	</head>
-	<body>
 		<!-- Start Sticky Icon -->
 		<div class="sticky-icon">
 			<a href="https://www.instagram.com/?hl=en" class="Instagram">
@@ -291,13 +297,13 @@
 			</a>
 		</div>
 		<!-- End Sticky Icon -->
-	
+
 		<!-- Your content here -->
-	
+
 		<button onclick="topFunction()" id="myBtn" title="Go to top">
 			<i class="fas fa-arrow-circle-up"></i>
 		</button>
-	
+
 		<script>
 			// Function to scroll to the top of the page
 			function topFunction() {
@@ -666,7 +672,7 @@
 												<div
 													class="call-icon option-item">
 													<i
-														class="bx bxs-phone"
+														class="fab fa-whatsapp"
 														style="
 															color: #2ad396;
 															font-size: 2rem;
@@ -676,16 +682,26 @@
 												</div>
 												<div
 													class="icon-box icon-box-body">
-													<span
-														class="title"
+													<a
 														style="
-															color: #2ad396;
-															font-size: 1rem;
-															font-weight: 500;
-														">
-														Consult With Doctor
-														<p>(555)-085-2750</p>
-													</span>
+															padding-top: 0px;
+															padding-bottom: 0px;
+														"
+														target="_blank"
+														href="https://wa.me/15550852750?text=Hello">
+														<span
+															class="title"
+															style="
+																color: #2ad396;
+																font-size: 1rem;
+																font-weight: 500;
+															">
+															Consult With Doctor
+															<p>
+																(555)-085-2750
+															</p>
+														</span>
+													</a>
 												</div>
 											</div>
 										</div>
@@ -817,19 +833,30 @@
 
 													<div
 														class="col-lg-7 col-md-6">
-														<div
-															class="form-group">
-															<label
-																class="contact-us-icon"
-																><i
-																	class="icon flaticon-calendar"></i
-															></label>
-															<button
-																type="button"
-																class="form-control btn default-btn">
-																Book Appointment
-															</button>
-														</div>
+														<a
+															href="https://wa.me/15550852750?text=Hello"
+															target="_blank"
+															rel="noopener noreferrer"
+															style="
+																text-decoration: none;
+																color: inherit;
+																width: 100%;
+															">
+															<div
+																class="form-group">
+																<label
+																	class="contact-us-icon"
+																	><i
+																		class="icon flaticon-calendar"></i
+																></label>
+																<button
+																	type="button"
+																	class="form-control btn default-btn">
+																	Book
+																	Appointment
+																</button>
+															</div>
+														</a>
 													</div>
 												</div>
 											</form>
@@ -1433,7 +1460,179 @@
 					</div>
 				</div>
 			</div>
+			<!-- Jquery Slim JS -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script>
+				$(document).ready(function () {
+					// Function to make the AJAX request for department options
+					function fetchSpecializations() {
+						$.ajax({
+							url: "http://localhost:3000/users/doctor-specializations",
+							method: "POST",
+							dataType: "json",
+							data: {
+								code: "778899",
+							},
+							success: function (responseData) {
+								// Request was successful
+								populateOptions(responseData);
+							},
+							error: function (xhr, status, error) {
+								// Request failed
+								console.log("Request failed. Status:", status);
+							},
+						});
+					}
 
+					// Function to populate the department dropdown options
+					function populateOptions(data) {
+						var selectElement = $("#department");
+
+						// Clear any existing options
+						selectElement.empty();
+
+						// Add a default option
+						selectElement.append(
+							$("<option>").val("").text("Select Department")
+						);
+
+						// Iterate over the data and create options
+						$.each(data, function (index, item) {
+							var option = $("<option>")
+								.val(item.specializations)
+								.text(item.specializations);
+							selectElement.append(option);
+						});
+					}
+
+					// Function to make the AJAX request for doctor list options
+					function fetchDoctor(selectedValue) {
+						$.ajax({
+							url: "http://localhost:3000/users/doctor-list",
+							method: "POST",
+							dataType: "json",
+							data: {
+								code: "778899",
+								department: selectedValue,
+							},
+							success: function (responseData) {
+								// Request was successful
+								populateDoctorOptions(responseData);
+							},
+							error: function (xhr, status, error) {
+								// Request failed
+								console.log("Request failed. Status:", status);
+							},
+						});
+					}
+
+					// Function to populate the doctor list dropdown options
+					function populateDoctorOptions(data) {
+						var selectElement = $("#doctor-list");
+
+						// Clear any existing options
+						selectElement.empty();
+
+						// Add a default option
+						selectElement.append(
+							$("<option>").val("").text("Select Doctor")
+						);
+
+						// Iterate over the data and create options
+						$.each(data, function (index, item) {
+							var option = $("<option>")
+								.val(item.userId)
+								.text(
+									item.firstName +
+										" " +
+										item.lastName +
+										" ( " +
+										item.qualifications +
+										" )"
+								);
+							selectElement.append(option);
+						});
+					}
+
+					// Handle selection in the department dropdown
+					function handleSelection() {
+						var selectedValue = $(this).val();
+						console.log(
+							"Selected department value:",
+							selectedValue
+						);
+
+						if (selectedValue) {
+							// Call the fetchData1 function to get the doctor list options
+							fetchDoctor(selectedValue);
+						} else {
+							// Clear the doctor list options if no department is selected
+							populateDoctorOptions([]);
+						}
+					}
+
+					// Bind the change event to the department dropdown
+					$("#department").change(handleSelection);
+
+					// Call the fetchData function to populate the department options when the page loads
+					fetchSpecializations();
+
+					function doctorMemberList() {
+						$.ajax({
+							url: "http://localhost:3000/users/doctor-memeber-list",
+							method: "POST",
+							dataType: "json",
+							data: {
+								code: "778899",
+							},
+							success: function (responseData) {
+								// Request was successful
+								populateOptions(responseData);
+							},
+							error: function (xhr, status, error) {
+								// Request failed
+								console.log("Request failed. Status:", status);
+							},
+						});
+					}
+
+					// Function to populate the department dropdown options
+					function populateOptions(data) {
+						var selectElement = $("#doctor-member-list");
+
+						// Iterate over the data and create options
+						$.each(data, function (index, item) {
+							var option = $("<option>")
+								.val(item.specializations)
+								.text(item.specializations);
+							selectElement.append(`
+								<div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+									<div class="member" data-aos="fade-up" data-aos-delay="100">
+										<div class="member-img">
+										<img
+											src="assets/img/doctors/doctors-1.jpg"
+											class="img-fluid"
+											alt=""
+										/>
+										<div class="social">
+											<a href=""><i class="bi bi-twitter"></i></a>
+											<a href=""><i class="bi bi-facebook"></i></a>
+											<a href=""><i class="bi bi-instagram"></i></a>
+											<a href=""><i class="bi bi-linkedin"></i></a>
+										</div>
+										</div>
+										<div class="member-info">
+										<h4>${item.firstName + " " + item.lastName}</h4>
+										<span>${item.specializations + " - " + item.qualifications}</span>
+										</div>
+									</div>
+									</div>`
+							);
+						});
+					}
+					doctorMemberList();
+				});
+			</script>
 			<div class="doctor-shape">
 				<div class="shape-1">
 					<img src="assets/img/doctor/doctor-shape.png" alt="image" />
@@ -2374,9 +2573,6 @@
 			<i class="bx bx-up-arrow-alt"></i>
 		</div>
 		<!-- End Go Top Area -->
-
-		<!-- Jquery Slim JS -->
-		<script src="assets/js/jquery.min.js"></script>
 		<!-- Bootstrap JS -->
 		<script>
 			$(document).on("click", "#send-it", function () {
@@ -2422,7 +2618,7 @@
 			});
 
 			$(document).on("click", ".blantershow-chat", function () {
-				$("#whatsapp-chat").addClass("show").removeClass("hide");
+				// $("#whatsapp-chat").addClass("show").removeClass("hide");
 			});
 		</script>
 		<script src="assets/js/bootstrap.bundle.min.js"></script>
