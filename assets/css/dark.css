@@ -65,6 +65,7 @@ Default CSS
 }
 
 .switch-box1 .switch {
+	margin-top: 2px;
 	position: relative;
 	display: inline-block;
 	width: 60px;
